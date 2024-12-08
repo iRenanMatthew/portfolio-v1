@@ -1,6 +1,8 @@
 <template>
   <HeaderNav />
-  <router-view />
+  <div class="background-bg h-full">
+    <router-view />
+  </div>
   <FooterPage />
 </template>
 

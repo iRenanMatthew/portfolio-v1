@@ -1,0 +1,77 @@
+[
+  {
+    "id": 0,
+    "name": "HTML",
+    "image": "html-logo"
+  },
+  {
+    "id": 1,
+    "name": "CSS",
+    "image": "css-logo"
+  },
+  {
+    "id": 2,
+    "name": "JavaScript",
+    "image": "html-logo"
+  },
+  {
+    "id": 3,
+    "name": "Vue",
+    "image": "vue-logo"
+  },
+  {
+    "id": 4,
+    "name": "AngularJS",
+    "image": "angularjs-logo"
+  },
+  {
+    "id": 5,
+    "name": "PHP",
+    "image": "php-logo"
+  },
+  {
+    "id": 6,
+    "name": "Java",
+    "image": "java-logo"
+  },
+  {
+    "id": 7,
+    "name": "jQuery",
+    "image": "jquery-logo"
+  },
+  {
+    "id": 8,
+    "name": "Git",
+    "image": "git-logo"
+  },
+  {
+    "id": 9,
+    "name": "Bootstrap",
+    "image": "bootstrap-logo"
+  },
+  {
+    "id": 10,
+    "name": "Tailwind",
+    "image": "tailwind-logo"
+  },
+  {
+    "id": 11,
+    "name": "SASS",
+    "image": "sass-logo"
+  },
+  {
+    "id": 12,
+    "name": "Figma",
+    "image": "figma-logo"
+  },
+  {
+    "id": 13,
+    "name": "Photoshop",
+    "image": "photoshop-logo"
+  },
+  {
+    "id": 14,
+    "name": "Wordpress",
+    "image": "wordpress-logo"
+  }
+]

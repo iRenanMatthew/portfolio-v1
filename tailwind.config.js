@@ -6,6 +6,13 @@ module.exports = {
       backgroundColor: {
         primary: "#0C0C0C",
         "custom-white": "#FFFFFF",
+        "custom-gray": "#C5C5C5",
+        "custom-blue": "#0d72d0",
+      },
+      colors: {
+        "custom-white": "#FFFFFF",
+        "custom-gray": "#C5C5C5",
+        "custom-blue": "#0d72d0",
       },
     },
   },

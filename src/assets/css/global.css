@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --primary-color: #0c0c0c;
+  --custom-white: #ffffff;
+  --custom-blue: #0d72d0;
+  --custom-gray: #c5c5c5;
+  --custom-gradient-color-1: #f6cfbe;
+  --custom-gradient-1: linear-gradient(to bottom, #f6cfbe 0%, #0d72d0 100%);
+}
+
 body,
 html,
 * {
@@ -7,12 +17,42 @@ html,
 }
 
 body {
-  background: #0c0c0c;
-  color: #ffffff;
+  background: var(--primary-color);
+  color: var(--custom-white);
 }
 
 .pacifico-regular {
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+.background-bg {
+  background: url("../images/bg-tinified.png") top center / 100% no-repeat;
+}
+
+.custom-bg-text-gradient {
+  background: var(--custom-gradient-color-1);
+  background: var(--custom-gradient-1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-button-gradient {
+  background: transparent;
+  color: var(--custom-white);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0.8em 1em;
+  border-radius: 2em;
+  border: 1px solid var(--custom-blue);
+  transition: all 200ms ease-in-out;
+}
+
+.custom-button-gradient:hover {
+  background: var(--custom-gradient-color-1);
+  background: var(--custom-gradient-1);
+  color: var(--primary-color);
+  border: 1px solid var(--custom-white);
 }
