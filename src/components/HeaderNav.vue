@@ -1,5 +1,7 @@
 <template>
-  <nav class="bg-primary text-white p-5 border-white border-b">
+  <nav
+    class="bg-primary text-white p-5 border-white border-b fixed z-10 w-full"
+  >
     <div class="flex justify-between items-center w-[800px] mx-auto">
       <router-link :to="{ name: 'home' }">
         <div class="flex justify-center items-center gap-2">

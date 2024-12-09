@@ -5,6 +5,7 @@
   --custom-white: #ffffff;
   --custom-blue: #0d72d0;
   --custom-gray: #c5c5c5;
+  --custom-gray2: #2a2a2a;
   --custom-gradient-color-1: #f6cfbe;
   --custom-gradient-1: linear-gradient(to bottom, #f6cfbe 0%, #0d72d0 100%);
 }
@@ -55,4 +56,20 @@ body {
   background: var(--custom-gradient-1);
   color: var(--primary-color);
   border: 1px solid var(--custom-white);
+}
+
+.custom-card {
+  width: 385px;
+  height: 300px;
+  border-radius: 20px;
+  background: var(--custom-gray2);
+  scroll-snap-align: start;
+}
+
+.work-section {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 10px;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
 }

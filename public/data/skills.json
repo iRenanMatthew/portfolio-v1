@@ -41,37 +41,47 @@
   },
   {
     "id": 8,
-    "name": "Git",
-    "image": "git-logo"
-  },
-  {
-    "id": 9,
     "name": "Bootstrap",
     "image": "bootstrap-logo"
   },
   {
-    "id": 10,
+    "id": 9,
     "name": "Tailwind",
     "image": "tailwind-logo"
   },
   {
-    "id": 11,
+    "id": 10,
     "name": "SASS",
     "image": "sass-logo"
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "Figma",
     "image": "figma-logo"
   },
   {
-    "id": 13,
+    "id": 12,
     "name": "Photoshop",
     "image": "photoshop-logo"
   },
   {
-    "id": 14,
+    "id": 13,
     "name": "Wordpress",
     "image": "wordpress-logo"
+  },
+  {
+    "id": 14,
+    "name": "Git",
+    "image": "git-logo"
+  },
+  {
+    "id": 15,
+    "name": "Github",
+    "image": "github-logo"
+  },
+  {
+    "id": 16,
+    "name": "MySQL",
+    "image": "mysql-logo"
   }
 ]
