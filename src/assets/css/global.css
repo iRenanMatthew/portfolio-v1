@@ -73,3 +73,14 @@ body {
   scroll-snap-type: x mandatory;
   overflow-x: auto;
 }
+
+.skill-pill {
+  display: inline-block;
+  border: 1px solid var(--custom-blue);
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  width: fit-content;
+  min-width: 110px;
+  text-align: center;
+  font-size: 12px;
+}

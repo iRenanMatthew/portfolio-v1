@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "position_title": "Front End Developer",
+    "company_name": "Netlingo Support Service Inc.",
+    "company_location": "Makati",
+    "startedAt": "Nov 2022",
+    "endAt": "August 2024",
+    "description": [
+      "As a Front End Developer, I played a supporting role in developing or maintaining websites for the company’s client.",
+      "Integrating mock up into website by using HTML, CSS, JavaScript, AngularJS, jQuery, and PHP.",
+      "Collaborating with designers and QA team to improve user experience and completing assign task on time."
+    ],
+    "skills": [
+      "HTML",
+      "CSS",
+      "PHP",
+      "JavaScript",
+      "AngularJS",
+      "jQuery",
+      "Bootstrap",
+      "SASS",
+      "Git",
+      "Figma",
+      "Photoshop"
+    ]
+  },
+  {
+    "id": 1,
+    "position_title": "Intern Web Developer",
+    "company_name": "Altus Tech IT Solutions",
+    "company_location": "Bulacan",
+    "startedAt": "April 2022",
+    "endAt": "June 2022",
+    "description": [
+      "As a Intern Web Developer, my role is to comply with the company assigned tasks and assignments.",
+      "Integrate mock up into websites using  HTML, CSS, JavaScript, and PHP.",
+      "Collaborating with other interns to accomplish assigned tasks by senior developer and presenting and explaining developed outputs to team."
+    ],
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "PHP",
+      "Laravel",
+      "Photoshop"
+    ]
+  }
+]

@@ -1,8 +1,6 @@
 <template>
   <div class="mt-[100px]">
-    <h1 class="custom-bg-text-gradient font-extrabold text-4xl text-center">
-      FEATURED SKILLS
-    </h1>
+    <CategoryTitle title="FEATURED SKILLS" />
 
     <div v-if="error">{{ error }}</div>
     <div class="custom-grid my-[50px]">
@@ -19,7 +17,11 @@
 </template>
 <script>
 import getSkills from "@/composables/getSkills";
+import CategoryTitle from "./CategoryTitle.vue";
 export default {
+  components: {
+    CategoryTitle,
+  },
   setup() {
     const { skills, error, loadSkills } = getSkills();
 

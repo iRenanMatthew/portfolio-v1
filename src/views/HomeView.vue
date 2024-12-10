@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full w-[800px] mx-auto pt-[100px]">
+  <div class="h-full w-[800px] mx-auto py-[100px]">
     <div class="hero-section">
       <div class="logo-name-section flex justify-center items-center gap-12">
         <img
@@ -38,36 +38,53 @@
     <!-- Skills Section -->
     <Skills />
 
-    <div class="work-section">
-      <div class="custom-card relative" v-for="work in works" :key="work.id">
-        <div class="work-card-bg"></div>
-        <div class="custom-card-text">
-          <div class="flex justify-between items-center">
-            <h2 class="font-extrabold text-2xl">{{ work.name }}</h2>
-            <img class="view-icon" src="../assets///images/view-icon.png" />
-          </div>
-          <div class="flex gap-1">
-            <p
-              class="text-xs font-bold text-custom-gray"
-              v-for="tag in work.tags"
-              :key="tag"
-            >
-              {{ tag }}
-            </p>
+    <!-- Works -->
+    <div class="mt-[100px]">
+      <CategoryTitle title="WORKS" />
+
+      <div class="work-section mt-[50px]">
+        <div class="custom-card relative" v-for="work in works" :key="work.id">
+          <div class="work-card-bg"></div>
+          <div class="custom-card-text">
+            <div class="flex justify-between items-center">
+              <h2 class="font-extrabold text-2xl">{{ work.name }}</h2>
+              <img class="view-icon" src="../assets///images/view-icon.png" />
+            </div>
+            <div class="flex gap-1">
+              <p
+                class="text-xs font-bold text-custom-gray"
+                v-for="tag in work.tags"
+                :key="tag"
+              >
+                {{ tag }}
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Experiences -->
+    <Experience />
+
+    <!-- Get in Touch -->
+    <GetInTouch />
   </div>
 </template>
 
 <script>
+import CategoryTitle from "@/components/CategoryTitle.vue";
+import Experience from "@/components/Experience.vue";
+import GetInTouch from "@/components/GetInTouch.vue";
 import Skills from "@/components/Skills.vue";
 import getWorks from "@/composables/getWorks";
 export default {
   name: "HomeView",
   components: {
     Skills,
+    CategoryTitle,
+    Experience,
+    GetInTouch,
   },
   setup() {
     const { works, error, loadWorks } = getWorks();
