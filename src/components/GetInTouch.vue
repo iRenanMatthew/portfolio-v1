@@ -136,13 +136,6 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import CategoryTitle from "./CategoryTitle.vue";
-
-export default {
-  components: {
-    CategoryTitle,
-  },
-  setup() {},
-};
 </script>

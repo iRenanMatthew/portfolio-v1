@@ -13,7 +13,7 @@
         </div>
       </router-link>
       <div class="flex items-center gap-14">
-        <div v-for="link in links" :key="link.id">
+        <div v-for="link in headerLink" :key="link.id">
           <router-link :to="{ name: link.url }">
             <p class="cursor-pointer">{{ link.title }}</p>
           </router-link>
@@ -23,33 +23,13 @@
   </nav>
 </template>
 
-<script>
-export default {
-  setup() {
-    const links = [
-      {
-        id: 0,
-        title: "Home",
-        url: "home",
-      },
-      {
-        id: 1,
-        title: "Works",
-        url: "works",
-      },
-      {
-        id: 2,
-        title: "About",
-        url: "about",
-      },
-      {
-        id: 3,
-        title: "Contact",
-        url: "contact",
-      },
-    ];
+<script setup>
+import { onMounted } from "vue";
+import getHeaderLinks from "@/composables/getHeaderLinks"
 
-    return { links };
-  },
-};
+const {loadHeaderLinks, headerLink, error} = getHeaderLinks();
+
+onMounted(() => {
+  loadHeaderLinks();
+})
 </script>

@@ -3,24 +3,28 @@
     "id": 0,
     "name": "Project 1",
     "content": "Lorem Ipsum",
+    "image": "wip-image.jpg",
     "tags": ["HTML", "CSS", "JavaScript", "Vue", "Tailwind"]
   },
   {
     "id": 2,
     "name": "Project 2",
     "content": "Lorem Ipsum",
+    "image": "wip-image.jpg",
     "tags": ["HTML", "CSS", "JavaScript", "Vue", "Tailwind"]
   },
   {
     "id": 3,
     "name": "Project 3",
     "content": "Lorem Ipsum",
+    "image": "wip-image.jpg",
     "tags": ["HTML", "CSS", "JavaScript", "Vue", "Tailwind"]
   },
   {
     "id": 4,
     "name": "Project 4",
     "content": "Lorem Ipsum",
+    "image": "wip-image.jpg",
     "tags": ["HTML", "CSS", "JavaScript", "Vue", "Tailwind"]
   }
 ]

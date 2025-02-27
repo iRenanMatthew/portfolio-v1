@@ -4,9 +4,6 @@
   </h1>
 </template>
 
-<script>
-export default {
-  props: ["title"],
-  setup() {},
-};
+<script setup>
+defineProps(["title"]);
 </script>

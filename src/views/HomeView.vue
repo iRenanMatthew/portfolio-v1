@@ -1,5 +1,6 @@
 <template>
-  <div class="h-full w-[800px] mx-auto py-[100px]">
+ <div class="section">
+  <div class="row">
     <div class="hero-section">
       <div class="logo-name-section flex justify-center items-center gap-12">
         <img
@@ -38,22 +39,23 @@
     <!-- Skills Section -->
     <Skills />
 
-    <!-- Works -->
+    <!-- Projects -->
     <div class="mt-[100px]">
-      <CategoryTitle title="WORKS" />
+      <CategoryTitle title="PROJECTS" />
 
-      <div class="work-section mt-[50px]">
-        <div class="custom-card relative" v-for="work in works" :key="work.id">
-          <div class="work-card-bg"></div>
+      <div class="project-section mt-[50px]">
+        <div class="custom-card relative" v-for="project in projects" :key="project.id">
+
+          <div class="project-card-bg" :style="{ background: `url(${imagePath(project.image, 'projects')})center -15px / cover no-repeat`}"></div>
           <div class="custom-card-text">
             <div class="flex justify-between items-center">
-              <h2 class="font-extrabold text-2xl">{{ work.name }}</h2>
+              <h2 class="font-extrabold text-2xl">{{ project.name }}</h2>
               <img class="view-icon" src="../assets///images/view-icon.png" />
             </div>
             <div class="flex gap-1">
               <p
                 class="text-xs font-bold text-custom-gray"
-                v-for="tag in work.tags"
+                v-for="tag in project.tags"
                 :key="tag"
               >
                 {{ tag }}
@@ -70,35 +72,31 @@
     <!-- Get in Touch -->
     <GetInTouch />
   </div>
+</div>
 </template>
 
-<script>
+<script setup>
+import {ref, onMounted} from "vue";
 import CategoryTitle from "@/components/CategoryTitle.vue";
 import Experience from "@/components/Experience.vue";
 import GetInTouch from "@/components/GetInTouch.vue";
 import Skills from "@/components/Skills.vue";
-import getWorks from "@/composables/getWorks";
-export default {
-  name: "HomeView",
-  components: {
-    Skills,
-    CategoryTitle,
-    Experience,
-    GetInTouch,
-  },
-  setup() {
-    const { works, error, loadWorks } = getWorks();
+import getProjects from "@/composables/getProjects";
 
-    loadWorks();
+const { projects, error, loadProjects } = getProjects();
 
-    return { works, error, loadWorks };
-  },
+const imagePath = (path, category) => {
+  return `/${category}/${path}`
 };
+
+onMounted( () => {
+  loadProjects();
+})
+
 </script>
 
-<style>
-.work-card-bg {
-  background: url("../assets/images/wip.png") center -194px / 110% no-repeat;
+<style scoped>
+.project-card-bg {
   height: 100%;
   border-radius: 20px;
 }
@@ -109,7 +107,6 @@ export default {
   bottom: 0;
   z-index: 2;
   background: #2a2a2a;
-
   padding: 1em;
   border-radius: 0 0 20px 20px;
 }

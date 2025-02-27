@@ -22,6 +22,16 @@ body {
   color: var(--custom-white);
 }
 
+.section{
+  padding-inline: 4%;
+}
+
+.row{
+  width: 800px;
+  padding: 100px 0;
+  margin-inline: auto;
+}
+
 .pacifico-regular {
   font-family: "Pacifico", cursive;
   font-weight: 400;
@@ -66,7 +76,7 @@ body {
   scroll-snap-align: start;
 }
 
-.work-section {
+.project-section {
   display: grid;
   grid-auto-flow: column;
   grid-gap: 10px;
@@ -74,7 +84,7 @@ body {
   overflow-x: auto;
 }
 
-.skill-pill {
+.tags-pill {
   display: inline-block;
   border: 1px solid var(--custom-blue);
   border-radius: 20px;

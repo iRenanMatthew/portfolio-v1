@@ -15,24 +15,18 @@
     </div>
   </div>
 </template>
-<script>
+<script setup>
+import { onMounted } from "vue";
 import getSkills from "@/composables/getSkills";
-import CategoryTitle from "./CategoryTitle.vue";
-export default {
-  components: {
-    CategoryTitle,
-  },
-  setup() {
-    const { skills, error, loadSkills } = getSkills();
+import CategoryTitle from "@/components/CategoryTitle.vue";
 
-    loadSkills();
+// Destructure composable function
+const { skills, error, loadSkills } = getSkills();
 
-    const imagePath = (path) => {
-      return `../src/assets/images/logo/${path}.png`;
-    };
-    return { skills, error, imagePath };
-  },
-};
+onMounted(() => {
+  loadSkills();
+});
+
 </script>
 
 <style>

@@ -29,7 +29,7 @@
         </div>
 
         <div class="flex gap-3 flex-wrap">
-          <p class="skill-pill" v-for="skill in experience.skills" :key="skill">
+          <p class="tags-pill" v-for="skill in experience.skills" :key="skill">
             {{ skill }}
           </p>
         </div>
@@ -37,21 +37,16 @@
     </div>
   </div>
 </template>
-<script>
+<script setup>
+import { onMounted } from "vue";
 import getExperiences from "@/composables/getExperiences";
 import CategoryTitle from "./CategoryTitle.vue";
-export default {
-  components: {
-    CategoryTitle,
-  },
-  setup() {
-    const { experiences, error, loadExperiences } = getExperiences();
 
-    loadExperiences();
+const { experiences, error, loadExperiences } = getExperiences();
 
-    return { experiences, error };
-  },
-};
+onMounted(() => {
+  loadExperiences();
+});
 </script>
 
 <style></style>

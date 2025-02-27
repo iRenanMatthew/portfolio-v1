@@ -8,3 +8,5 @@
     <p class="cursor-pointer font-bold">Renan Matthew</p>
   </div>
 </template>
+<script setup>
+</script>
