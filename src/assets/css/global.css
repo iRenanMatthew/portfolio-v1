@@ -32,6 +32,10 @@ body {
   margin-inline: auto;
 }
 
+.projects.row{
+  width: 1000px;
+}
+
 .pacifico-regular {
   font-family: "Pacifico", cursive;
   font-weight: 400;

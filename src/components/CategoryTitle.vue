@@ -1,9 +1,23 @@
 <template>
-  <h1 class="custom-bg-text-gradient font-extrabold text-4xl text-center">
+  <component 
+    :is="tag"
+    class="custom-bg-text-gradient font-extrabold text-center"
+    :class="[size ? `text-[${size}]` : 'text-4xl']"
+  >
     {{ title }}
-  </h1>
+  </component>
 </template>
 
 <script setup>
-defineProps(["title"]);
+defineProps({
+  title: String,
+  tag: {
+    type: String,
+    default: "h2",
+  },
+  size: {
+    type: String,
+    default: "4xl", 
+  },
+});
 </script>
