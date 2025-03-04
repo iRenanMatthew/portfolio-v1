@@ -1,8 +1,8 @@
 <template>
-  <component 
+  <component
     :is="tag"
     class="custom-bg-text-gradient font-extrabold text-center"
-    :class="[size ? `text-[${size}]` : 'text-4xl']"
+    :class="[size ? `text-${size}` : 'text-4xl']"
   >
     {{ title }}
   </component>
@@ -17,7 +17,7 @@ defineProps({
   },
   size: {
     type: String,
-    default: "4xl", 
+    default: "4xl",
   },
 });
 </script>
