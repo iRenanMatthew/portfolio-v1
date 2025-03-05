@@ -69,15 +69,36 @@
         </div>
       </div>
 
-      <CategoryTitle title="EXPERIENCES" size="6xl" tag="h1" />
+      <div class="experience-section">
+        <CategoryTitle title="EXPERIENCES" size="5xl" tag="h2" />
+        <div class="exp-wrapper">
+          <div class="exp-content" v-for="exp in experiences" :key="exp.id">
+            <h3>{{ exp }}</h3>
+            <h3>{{ exp.position_title }}</h3>
+            <p>{{ exp.company_name }} {{ exp.startedAt }} - {{ exp.endAt }}</p>
+          </div>
+        </div>
+      </div>
     </div>
+
+    
   </div>
 </template>
 
 <script setup>
 import CategoryTitle from "@/components/CategoryTitle.vue";
+import getExperiences from "@/composables/getExperiences";
 import { onMounted } from "vue";
-onMounted(() => {});
+
+const { experiences , loadExperiences } = getExperiences();
+
+
+
+onMounted(() => {
+
+  loadExperiences();
+
+});
 </script>
 <style scoped>
 .about .hero-content {
