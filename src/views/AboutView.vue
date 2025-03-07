@@ -72,21 +72,34 @@
       <div class="experience-section">
         <CategoryTitle title="EXPERIENCES" size="5xl" tag="h2" />
         <div class="exp-wrapper">
-          <div class="exp-content" v-for="exp in experiences" :key="exp.id">
-            <h3>{{ exp }}</h3>
-            <h3>{{ exp.position_title }}</h3>
-            <p>{{ exp.company_name }} {{ exp.startedAt }} - {{ exp.endAt }}</p>
+          <div class="exp-content flex flex-col gap-2.5 mb-24" v-for="exp in experiences" :key="exp.id">
+            <div class="exp_c-position-wrapper flex justify-between">
+              <div class="exp-c-wrapper">
+                <h3 class="text-white font-bold text-xl">{{ exp.position_title }}</h3>
+                <p class="text-custom-gray text-xs">{{ exp.company_name }}</p>
+              </div>
+                <p class="text-custom-gray self-center">{{ exp.startedAt }} - {{ exp.endAt }}</p> 
+              </div>
+            <div class="exp_c-desc-wrapper flex flex-col gap-2.5">
+              <ul class="exp_c-desc-text text-sm">
+                <li v-for="desc in exp.description" :key="desc" class="text-custom-gray1">{{ desc }}</li>
+              </ul>
+              <div class="exp_c-desc-skills flex gap-2.5 flex-wrap">
+                <p class="tags-pill" v-for="skill in exp.skills" :key="skill">{{ skill }}</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      
+      <GetInTouch/>
     </div>
-
-    
   </div>
 </template>
 
 <script setup>
 import CategoryTitle from "@/components/CategoryTitle.vue";
+import GetInTouch from "@/components/GetInTouch.vue";
 import getExperiences from "@/composables/getExperiences";
 import { onMounted } from "vue";
 

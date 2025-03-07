@@ -24,6 +24,8 @@
             <img class="pc-img" :src="imagePath(project.image, 'projects')" />
           </div>
         </div>
+
+        <GetInTouch/>
     </div>
   </div>
 </template>
@@ -31,6 +33,7 @@
 <script setup>
 import {ref, onMounted} from "vue";
 import CategoryTitle from '@/components/CategoryTitle.vue';
+import GetInTouch from "@/components/GetInTouch.vue";
 import getProjects from '@/composables/getProjects';
 
 const { projects, error, loadProjects } = getProjects();
