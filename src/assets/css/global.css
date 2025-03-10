@@ -98,3 +98,24 @@ body {
   text-align: center;
   font-size: 12px;
 }
+
+.about .hero-content,
+.contact .hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 70px 0 100px;
+}
+
+
+.contact-content .git-socials svg {
+  width: 50px;
+  height: 50px;
+  transition: opacity 300ms ease;
+  opacity: 1;
+}
+
+.contact-content .git-socials svg:hover {
+  opacity: 0.6;
+}

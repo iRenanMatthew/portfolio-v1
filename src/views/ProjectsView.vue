@@ -25,7 +25,7 @@
           </div>
         </div>
 
-        <GetInTouch/>
+        <GetInTouch  class="mt-[100px]"/>
     </div>
   </div>
 </template>

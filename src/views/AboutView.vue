@@ -71,7 +71,7 @@
 
       <div class="experience-section">
         <CategoryTitle title="EXPERIENCES" size="5xl" tag="h2" />
-        <div class="exp-wrapper">
+        <div class="exp-wrapper mt-10">
           <div class="exp-content flex flex-col gap-2.5 mb-24" v-for="exp in experiences" :key="exp.id">
             <div class="exp_c-position-wrapper flex justify-between">
               <div class="exp-c-wrapper">
@@ -92,7 +92,7 @@
         </div>
       </div>
       
-      <GetInTouch/>
+      <GetInTouch class="mt-[100px]"/>
     </div>
   </div>
 </template>
@@ -114,14 +114,6 @@ onMounted(() => {
 });
 </script>
 <style scoped>
-.about .hero-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  margin: 70px 0 100px;
-}
-
 .about-content .about_item-wrapper .about_item {
   display: grid;
   grid-template-columns: 0.3fr 1fr;

@@ -70,7 +70,7 @@
     <Experience />
 
     <!-- Get in Touch -->
-    <GetInTouch />
+    <GetInTouch class="mt-[100px]"/>
   </div>
 </div>
 </template>

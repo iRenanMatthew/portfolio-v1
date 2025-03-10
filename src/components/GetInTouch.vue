@@ -1,7 +1,7 @@
 <template>
-  <div class="mt-[100px]">
-    <CategoryTitle title="GET IN TOUCH?" />
-    <div class="text-center mt-5">
+  <div>
+    <CategoryTitle v-if="showHeader" class="git-title" title="GET IN TOUCH?" />
+    <div v-if="showText" class="git-text text-center mt-5">
       <p class="text-custom-gray">
         Whether you have a project in mind, want to collaborate, or just feel
         having a conversation,
@@ -10,10 +10,10 @@
         I'm always here to connect. Dont hesitate to reach you via email-I'd
         love to hear from you!
       </p>
-      <button class="custom-button-gradient mt-5">HIRE ME</button>
+ 
     </div>
-    <div
-      class="flex justify-center items-center gap-5 text-custom-gray my-[20px]"
+    <div v-if="showEmail"
+      class="git-email flex justify-center items-center gap-5 text-custom-gray my-[20px]"
     >
       <svg
         width="20px"
@@ -43,7 +43,7 @@
       <span class="font-bold">renanmatthew26@gmail.com</span>
     </div>
 
-    <div class="flex items-center flex-col gap-5 text-custom-white">
+    <div v-if="showSocials" class="git-socials flex items-center flex-col gap-5 text-custom-white">
       <p>You may also find me on this platforms</p>
       <div class="flex gap-5">
         <a
@@ -138,4 +138,25 @@
 
 <script setup>
 import CategoryTitle from "./CategoryTitle.vue";
+
+defineProps({
+  showHeader: {
+    type: Boolean,
+    default: true
+  },
+  showText: {
+    type: Boolean,
+    default: true
+  },
+  showEmail:{
+    type: Boolean,
+    default: true
+  },
+  showSocials:{
+    type: Boolean,
+    default: true
+  }
+})
+
+
 </script>
