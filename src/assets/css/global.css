@@ -43,7 +43,7 @@ body {
 }
 
 .background-bg {
-  background: url("../images/bg-tinified.png") top center / 100% no-repeat;
+  background: url("../images/bg-tinified.png") top center / cover no-repeat;
 }
 
 .custom-bg-text-gradient {
@@ -118,4 +118,11 @@ body {
 
 .contact-content .git-socials svg:hover {
   opacity: 0.6;
+}
+
+@media only screen and (max-width: 768px) {
+  .row{
+    width: 100%;
+    max-width: 800px;
+  }
 }

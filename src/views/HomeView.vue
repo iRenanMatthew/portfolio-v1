@@ -2,17 +2,17 @@
  <div class="section">
   <div class="row">
     <div class="hero-section">
-      <div class="logo-name-section flex justify-center items-center gap-12">
+      <div class="logo-name-section flex sm:flex-col flex-row justify-center items-center gap-12">
         <img
           class="w-[185px] rounded-full"
           src="../assets/images/logo.png"
           alt="My Logo - png"
         />
         <div class="w-80">
-          <h1 class="text-4xl">
+          <h1 class="text-4xl sm:text-center">
             <span class="pacifico-regular">Hello</span>👋
           </h1>
-          <h1 class="text-5xl">
+          <h1 class="text-5xl sm:text-center">
             I am
             <span class="custom-bg-text-gradient font-extrabold"
               >Renan Matthew</span
@@ -22,7 +22,7 @@
       </div>
 
       <div class="introduction-section text-center mt-[50px]">
-        <h1 class="text-6xl font-extrabold custom-bg-text-gradient">
+        <h1 class="sm:text-5xl text-6xl font-extrabold custom-bg-text-gradient">
           Front End Developer
         </h1>
         <p class="my-[25px] text-custom-gray">
@@ -46,7 +46,10 @@
       <Swiper 
       :modules="modules" 
       :spaceBetween="20"
-      :slidesPerView="2"
+      :breakpoints="{
+        899: { slidesPerView: 1 },
+        900: { slidesPerView: 2 }
+      }"
       :navigation="true"
       :class="'project-section mt-[50px]'">
         <SwiperSlide class="custom-card relative" v-for="project in projects" :key="project.id">

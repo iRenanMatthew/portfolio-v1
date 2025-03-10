@@ -3,7 +3,7 @@
     <CategoryTitle title="FEATURED SKILLS" />
 
     <div v-if="error">{{ error }}</div>
-    <div class="custom-grid my-[50px]">
+    <div class="grid grid-cols-4 sm:grid-cols-[repeat(3,minmax(80px,1fr))] grid-cols-[repeat(4,minmax(80px,1fr))] justify-items-center items-center gap-5 my-[50px]">
       <div
         class="flex items-center flex-col"
         v-for="skill in skills"
