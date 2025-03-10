@@ -81,7 +81,7 @@
                 <p class="text-custom-gray self-center">{{ exp.startedAt }} - {{ exp.endAt }}</p> 
               </div>
             <div class="exp_c-desc-wrapper flex flex-col gap-2.5">
-              <ul class="exp_c-desc-text text-sm">
+              <ul class="exp_c-desc-text text-sm list-disc pl-5">
                 <li v-for="desc in exp.description" :key="desc" class="text-custom-gray1">{{ desc }}</li>
               </ul>
               <div class="exp_c-desc-skills flex gap-2.5 flex-wrap">

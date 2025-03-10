@@ -43,9 +43,13 @@
     <div class="mt-[100px]">
       <CategoryTitle title="PROJECTS" />
 
-      <div class="project-section mt-[50px]">
-        <div class="custom-card relative" v-for="project in projects" :key="project.id">
-
+      <Swiper 
+      :modules="modules" 
+      :spaceBetween="20"
+      :slidesPerView="2"
+      :navigation="true"
+      :class="'project-section mt-[50px]'">
+        <SwiperSlide class="custom-card relative" v-for="project in projects" :key="project.id">
           <div class="project-card-bg" :style="{ background: `url(${imagePath(project.image, 'projects')})center -15px / cover no-repeat`}"></div>
           <div class="custom-card-text">
             <div class="flex justify-between items-center">
@@ -62,8 +66,8 @@
               </p>
             </div>
           </div>
-        </div>
-      </div>
+        </SwiperSlide>
+      </Swiper>
     </div>
 
     <!-- Experiences -->
@@ -82,12 +86,19 @@ import Experience from "@/components/Experience.vue";
 import GetInTouch from "@/components/GetInTouch.vue";
 import Skills from "@/components/Skills.vue";
 import getProjects from "@/composables/getProjects";
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Navigation } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+
 
 const { projects, error, loadProjects } = getProjects();
+const modules = [Navigation];
 
 const imagePath = (path, category) => {
   return `/${category}/${path}`
 };
+
 
 onMounted( () => {
   loadProjects();
@@ -114,5 +125,9 @@ onMounted( () => {
 .view-icon {
   width: 15px;
   height: 15px;
+}
+
+.swiper.project-section{
+  height: 300px;
 }
 </style>
