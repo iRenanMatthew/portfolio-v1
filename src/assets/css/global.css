@@ -32,9 +32,6 @@ body {
   margin-inline: auto;
 }
 
-.projects.row{
-  width: 1000px;
-}
 
 .pacifico-regular {
   font-family: "Pacifico", cursive;
@@ -120,9 +117,26 @@ body {
   opacity: 0.6;
 }
 
+.mobile-nav{
+  position: absolute;
+  top: 70px;
+  background: var(--custom-gray2);
+  width: 200px;
+  display: flex;
+  gap: 50px;
+  border-radius: 20px;
+  padding: 20px;
+  right: 0;
+}
+
 @media only screen and (max-width: 768px) {
   .row{
     width: 100%;
     max-width: 800px;
   }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
+  }
 }
+

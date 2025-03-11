@@ -44,7 +44,7 @@
     </div>
 
     <div v-if="showSocials" class="git-socials flex items-center flex-col gap-5 text-custom-white">
-      <p>You may also find me on this platforms</p>
+      <p class="text-center">You may also find me on this platforms</p>
       <div class="flex gap-5">
         <a
           href="https://www.linkedin.com/in/irenanmatthew/"

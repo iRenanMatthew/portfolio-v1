@@ -1,9 +1,9 @@
 <template>
-  <div class="section h-[1080px]">
+  <div class="section h-[150vh]">
     <div class="contact row">
       <CategoryTitle title="CONTACT" size="6xl" tag="h1" />
       <div class="contact-section mb-[100px]"></div>
-      <div class="hero-content">
+      <div class="hero-content sm:flex sm:flex-col">
         
         <img
           class="w-[185px] rounded-full"
@@ -11,10 +11,10 @@
           alt="My Logo - png"
         />
         <div class="hero_text-wrapper">
-            <h2 class="text-white font-extrabold text-4xl mb-2">
+            <h2 class="text-white font-extrabold text-4xl mb-2 sm:text-center">
               Renan Matthew
             </h2>
-            <h2 class="custom-bg-text-gradient font-extrabold text-4xl">
+            <h2 class="custom-bg-text-gradient font-extrabold text-4xl  sm:text-center">
               Front End Developer
             </h2>
             <GetInTouch :show-header="false" :show-text="false" :show-socials="false"/>
@@ -24,7 +24,7 @@
       </div>
 
       <div class="contact-content">
-        <p class="text-center text-custom-gray text-2xl">Whether you have a project in mind, want to collaborate, 
+        <p class="text-center text-custom-gray text-xl">Whether you have a project in mind, want to collaborate, 
           or just feel like having a conversation, I'm always here to connect. Don’t hesitate to reach out via email. I'd love to hear from you!
         </p>
 
@@ -50,5 +50,16 @@ onMounted(() => {});
   flex-direction: column;
   justify-content: start;
   align-items: start;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .contact .hero-content .hero_text-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 }
 </style>

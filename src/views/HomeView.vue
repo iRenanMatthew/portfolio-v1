@@ -46,11 +46,11 @@
       <Swiper 
       :modules="modules" 
       :spaceBetween="20"
-      :breakpoints="{
-        899: { slidesPerView: 1 },
-        900: { slidesPerView: 2 }
+     :breakpoints="{
+        768: { slidesPerView: 1 }, 
+        769: { slidesPerView: 2 }
       }"
-      :navigation="true"
+      :navigation="true" 
       :class="'project-section mt-[50px]'">
         <SwiperSlide class="custom-card relative" v-for="project in projects" :key="project.id">
           <div class="project-card-bg" :style="{ background: `url(${imagePath(project.image, 'projects')})center -15px / cover no-repeat`}"></div>

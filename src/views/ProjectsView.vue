@@ -50,6 +50,11 @@ onMounted(()=>{
 
 <style scoped>
 
+
+.projects.row{
+  width: 1000px;
+}
+
 .project-card{
   display: flex;
   gap: 20px;
@@ -85,6 +90,39 @@ onMounted(()=>{
 
 .pc-info_tabs .tags-pill{
   margin:0 15px 10px 0;
+}
+
+@media only screen and (max-width: 1100px) {
+  .projects.row{
+    width: 100%;
+  }
+
+  .project-card{
+    display: flex;
+    width: 100%;
+    max-width: 570px;  
+    flex-flow: column-reverse;
+    gap: 20px;
+    margin: 0 auto 100px auto !important;
+  }
+
+  .pc-info_content{
+    margin: 0;
+  }
+
+  .pc-img{
+    margin-inline: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .project-card{
+    gap: 20px;
+  }
+
+  .pc-info_tabs .tags-pill{
+    margin:0 5px 10px 0;
+  }
 }
 
 

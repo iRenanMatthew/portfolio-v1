@@ -4,13 +4,13 @@
       <div class="about-section mb-[100px]">
         <CategoryTitle title="ABOUT ME" size="6xl" tag="h1" />
 
-        <div class="hero-content">
+        <div class="hero-content sm:flex sm:flex-col">
           <img
             class="w-[185px] rounded-full"
             src="../assets/images/logo.png"
             alt="My Logo - png"
           />
-          <div class="hero_text-wrapper">
+          <div class="hero_text-wrapper sm:text-center">
             <h2 class="text-white font-extrabold text-4xl mb-2">
               Renan Matthew
             </h2>
@@ -69,28 +69,7 @@
         </div>
       </div>
 
-      <div class="experience-section">
-        <CategoryTitle title="EXPERIENCES" size="5xl" tag="h2" />
-        <div class="exp-wrapper mt-10">
-          <div class="exp-content flex flex-col gap-2.5 mb-24" v-for="exp in experiences" :key="exp.id">
-            <div class="exp_c-position-wrapper flex justify-between">
-              <div class="exp-c-wrapper">
-                <h3 class="text-white font-bold text-xl">{{ exp.position_title }}</h3>
-                <p class="text-custom-gray text-xs">{{ exp.company_name }}</p>
-              </div>
-                <p class="text-custom-gray self-center">{{ exp.startedAt }} - {{ exp.endAt }}</p> 
-              </div>
-            <div class="exp_c-desc-wrapper flex flex-col gap-2.5">
-              <ul class="exp_c-desc-text text-sm list-disc pl-5">
-                <li v-for="desc in exp.description" :key="desc" class="text-custom-gray1">{{ desc }}</li>
-              </ul>
-              <div class="exp_c-desc-skills flex gap-2.5 flex-wrap">
-                <p class="tags-pill" v-for="skill in exp.skills" :key="skill">{{ skill }}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Experience/>
       
       <GetInTouch class="mt-[100px]"/>
     </div>
@@ -100,22 +79,26 @@
 <script setup>
 import CategoryTitle from "@/components/CategoryTitle.vue";
 import GetInTouch from "@/components/GetInTouch.vue";
-import getExperiences from "@/composables/getExperiences";
-import { onMounted } from "vue";
+import Experience from "@/components/Experience.vue";
 
-const { experiences , loadExperiences } = getExperiences();
-
-
-
-onMounted(() => {
-
-  loadExperiences();
-
-});
 </script>
 <style scoped>
 .about-content .about_item-wrapper .about_item {
   display: grid;
   grid-template-columns: 0.3fr 1fr;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .about-content .about_item-wrapper .about_item {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .about-content .about_item-wrapper .about_item h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
 }
 </style>
