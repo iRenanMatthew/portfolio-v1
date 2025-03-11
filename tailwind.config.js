@@ -19,7 +19,7 @@ module.exports = {
       'sm': {'min': '0px', 'max': '768px'},
       'md': {'min': '769px', 'max': '1024px'},
       'lg': {'min': '1025px', 'max': '1440px'},
-      'xl': {'min': '1441px'},
+      'xl': {'min': '1441px', 'max': '4000px'}
     },
   },
   plugins: [],

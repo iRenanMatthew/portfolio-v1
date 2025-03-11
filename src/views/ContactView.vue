@@ -41,7 +41,18 @@
 import CategoryTitle from "@/components/CategoryTitle.vue";
 import GetInTouch from "@/components/GetInTouch.vue";
 import { onMounted } from "vue";
-onMounted(() => {});
+import { useRoute } from 'vue-router';
+
+const route = useRoute();
+
+const updateTitle = () => {
+  const pageTitle = route.meta.title || 'Contact — Renan Matthew Portfolio'
+  document.title = pageTitle;
+}
+
+onMounted(() => {
+  updateTitle();
+});
 </script>
 <style scoped>
 

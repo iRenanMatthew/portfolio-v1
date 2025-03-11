@@ -35,6 +35,14 @@ import {ref, onMounted} from "vue";
 import CategoryTitle from '@/components/CategoryTitle.vue';
 import GetInTouch from "@/components/GetInTouch.vue";
 import getProjects from '@/composables/getProjects';
+import { useRoute } from 'vue-router';
+
+const route = useRoute();
+
+const updateTitle = () => {
+  const pageTitle = route.meta.title || 'Contact — Renan Matthew Portfolio'
+  document.title = pageTitle;
+}
 
 const { projects, error, loadProjects } = getProjects();
 
@@ -44,6 +52,7 @@ const imagePath = (path, category) => {
 
 onMounted(()=>{
   loadProjects();
+  updateTitle();
 })
 
 </script>

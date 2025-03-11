@@ -12,7 +12,8 @@
           <p class="cursor-pointer">Renan Matthew</p>
         </div>
       </router-link>
-      <div class="hidden lg:flex items-center gap-14">
+      
+      <div class="hidden lg:flex xl:flex items-center gap-14">
         <div v-for="link in headerLink" :key="link.id">
           <router-link 
             :to="{ name: link.url }"
@@ -23,8 +24,7 @@
         </div>
       </div>
 
-      <!-- Mobile Navigation Menu -->
-      <div :class="isMenuOpen ? 'flex flex-col' : 'hidden lg:hidden'" class="gap-6 text-center mobile-nav">
+      <div :class="isMenuOpen ? 'flex flex-col' : 'hidden lg:hidden xl:hidden'" class="gap-6 text-center mobile-nav">
         <div v-for="link in headerLink" :key="link.id">
           <router-link 
             :to="{ name: link.url }"
@@ -35,10 +35,9 @@
         </div>
       </div>
 
-      <!-- Mobile Menu Button -->
       <button 
         @click="isMenuOpen = !isMenuOpen"
-        class="inline-flex lg:hidden items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+        class="inline-flex lg:hidden xl:hidden items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-custom-gray2 focus:outline-none focus:ring-2 focus:ring-gray-200">
         
         <span class="sr-only">Toggle Menu</span>
         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">

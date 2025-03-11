@@ -10,21 +10,33 @@ const routes = [
     path: "/",
     name: "home",
     component: HomeView,
+    meta:{
+      title: 'Home — Renan Matthew Portfolio'
+    }
   },
   {
     path: "/about",
     name: "about",
     component: AboutView,
+    meta:{
+      title: 'About Me — Renan Matthew Portfolio'
+    }
   },
   {
     path: "/projects",
     name: "projects",
     component: ProjectsView,
+    meta:{
+      title: 'Projects — Renan Matthew Portfolio'
+    }
   },
   {
     path: "/contact",
     name: "contact",
     component: ContactView,
+    meta:{
+      title: 'Contact — Renan Matthew Portfolio'
+    }
   },
 
   // 404
@@ -32,6 +44,9 @@ const routes = [
     path: "/:pathMatch(.*)",
     name: "not-found",
     component: NotFoundView,
+    meta:{
+      title: '404 Not Found — Renan Matthew Portfolio'
+    }
   },
 ];
 

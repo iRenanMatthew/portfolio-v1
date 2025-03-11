@@ -83,7 +83,8 @@
 </template>
 
 <script setup>
-import {ref, onMounted} from "vue";
+import { ref, onMounted, watch } from "vue";
+import { useRoute } from 'vue-router';
 import CategoryTitle from "@/components/CategoryTitle.vue";
 import Experience from "@/components/Experience.vue";
 import GetInTouch from "@/components/GetInTouch.vue";
@@ -97,14 +98,21 @@ import 'swiper/css/navigation';
 
 const { projects, error, loadProjects } = getProjects();
 const modules = [Navigation];
+const route = useRoute();
 
 const imagePath = (path, category) => {
   return `/${category}/${path}`
 };
 
+const updateTitle = () => {
+  const pageTitle = route.meta.title || 'Home — Renan Matthew Portfolio'
+  document.title = pageTitle;
+}
+
 
 onMounted( () => {
   loadProjects();
+  updateTitle();
 })
 
 </script>
