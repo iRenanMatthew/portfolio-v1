@@ -3,6 +3,7 @@ import ContactView from "@/views/ContactView.vue";
 import HomeView from "@/views/HomeView.vue";
 import NotFoundView from "@/views/NotFoundView.vue";
 import ProjectsView from "@/views/ProjectsView.vue";
+import EmailTemplatesView from "@/views/EmailTemplatesView.vue";
 import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
@@ -36,6 +37,14 @@ const routes = [
     component: ContactView,
     meta:{
       title: 'Contact — Renan Matthew Portfolio'
+    }
+  },
+  {
+    path: "/projects/email-templates",
+    name: "Email Templates",
+    component: EmailTemplatesView,
+    meta:{
+      title: 'Email Templates — Renan Matthew Portfolio'
     }
   },
 

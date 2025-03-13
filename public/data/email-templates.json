@@ -1,0 +1,23 @@
+[
+    {
+        "id": 0,
+        "etName": "Email Template 1",
+        "etLink":"et-sample-1"
+    },
+    
+    {
+        "id": 1,
+        "etName": "Email Template 2",
+        "etLink":"et-sample-1"
+    },
+    {
+        "id": 2,
+        "etName": "Email Template 3",
+        "etLink":"et-sample-1"
+    },
+    {
+        "id": 3,
+        "etName": "Email Template 4",
+        "etLink":"et-sample-1"
+    }
+]
