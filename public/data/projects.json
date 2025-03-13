@@ -1,29 +1,29 @@
 [
   {
     "id": 0,
-    "name": "Project 1",
-    "content": "Lorem Ipsum",
+    "name": "Website Portfolio",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget magna eu purus tristique suscipit. Donec auctor ligula sed mi accumsan volutpat. Nulla lectus ligula, vulputate sagittis feugiat maximus, sagittis id turpis. Vivamus facilisis ac lorem at auctor. Aliquam eget massa accumsan neque commodo hendrerit ac cursus nunc. Fusce cursus arcu nec magna fringilla, id sagittis purus placerat. Nam laoreet, tortor vitae fermentum iaculis, nibh leo dapibus magna, sit amet faucibus ante elit id mauris. Aenean non lorem in mauris tristique varius et vitae erat. Suspendisse pharetra augue mi, quis tincidunt nibh tristique ac. Curabitur finibus egestas massa, et pretium libero tristique quis. Aliquam interdum odio odio, non ultrices urna tristique mattis.",
     "image": "wip-image.jpg",
     "tags": ["HTML", "CSS", "JavaScript", "Vue", "Tailwind"]
   },
   {
     "id": 2,
-    "name": "Project 2",
-    "content": "Lorem Ipsum",
+    "name": "Email Marketing Templates",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget magna eu purus tristique suscipit. Donec auctor ligula sed mi accumsan volutpat. Nulla lectus ligula, vulputate sagittis feugiat maximus, sagittis id turpis. Vivamus facilisis ac lorem at auctor. Aliquam eget massa accumsan neque commodo hendrerit ac cursus nunc. Fusce cursus arcu nec magna fringilla, id sagittis purus placerat. Nam laoreet, tortor vitae fermentum iaculis, nibh leo dapibus magna, sit amet faucibus ante elit id mauris. Aenean non lorem in mauris tristique varius et vitae erat. Suspendisse pharetra augue mi, quis tincidunt nibh tristique ac. Curabitur finibus egestas massa, et pretium libero tristique quis. Aliquam interdum odio odio, non ultrices urna tristique mattis.",
     "image": "wip-image.jpg",
-    "tags": ["HTML", "CSS", "JavaScript", "Vue", "Tailwind"]
+    "tags": ["HTML", "CSS", "JavaScript"]
   },
   {
     "id": 3,
-    "name": "Project 3",
-    "content": "Lorem Ipsum",
+    "name": "J.A.D.C Navalan Dental Clinic",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget magna eu purus tristique suscipit. Donec auctor ligula sed mi accumsan volutpat. Nulla lectus ligula, vulputate sagittis feugiat maximus, sagittis id turpis. Vivamus facilisis ac lorem at auctor. Aliquam eget massa accumsan neque commodo hendrerit ac cursus nunc. Fusce cursus arcu nec magna fringilla, id sagittis purus placerat. Nam laoreet, tortor vitae fermentum iaculis, nibh leo dapibus magna, sit amet faucibus ante elit id mauris. Aenean non lorem in mauris tristique varius et vitae erat. Suspendisse pharetra augue mi, quis tincidunt nibh tristique ac. Curabitur finibus egestas massa, et pretium libero tristique quis. Aliquam interdum odio odio, non ultrices urna tristique mattis.",
     "image": "wip-image.jpg",
     "tags": ["HTML", "CSS", "JavaScript", "Vue", "Tailwind"]
   },
   {
     "id": 4,
-    "name": "Project 4",
-    "content": "Lorem Ipsum",
+    "name": "Vhen Van For Rent",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget magna eu purus tristique suscipit. Donec auctor ligula sed mi accumsan volutpat. Nulla lectus ligula, vulputate sagittis feugiat maximus, sagittis id turpis. Vivamus facilisis ac lorem at auctor. Aliquam eget massa accumsan neque commodo hendrerit ac cursus nunc. Fusce cursus arcu nec magna fringilla, id sagittis purus placerat. Nam laoreet, tortor vitae fermentum iaculis, nibh leo dapibus magna, sit amet faucibus ante elit id mauris. Aenean non lorem in mauris tristique varius et vitae erat. Suspendisse pharetra augue mi, quis tincidunt nibh tristique ac. Curabitur finibus egestas massa, et pretium libero tristique quis. Aliquam interdum odio odio, non ultrices urna tristique mattis.",
     "image": "wip-image.jpg",
     "tags": ["HTML", "CSS", "JavaScript", "Vue", "Tailwind"]
   }
