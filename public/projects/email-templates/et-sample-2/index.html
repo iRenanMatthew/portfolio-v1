@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern HTML Email Template</title>
+<style type="text/css">
+    body, table, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    
+    body {
+        width: 100% !important;
+        background-color: #CCCCCC;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+    }
+    
+    table {
+        border-spacing: 0;
+        border-collapse: collapse;
+    }
+    
+    img {
+        border: 0;
+        max-width: 100%;
+        display: block;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .wrapper {
+        width: 100%;
+        background: #CCCCCC;
+        padding: 40px 0;
+    }
+
+    .main {
+        background-color: #FFFFFF;
+        border-spacing: 0;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #171A1B;
+    }
+
+    /* Only used font-size:0px for display:inline-block */
+    .two-columns,.three-columns{
+        text-align: center;
+        font-size: 0px;
+    }
+
+    .two-columns .column, .three-columns .column{
+        width: 100%;
+        max-width: 300px;
+        display: inline-block;
+        vertical-align:top;
+        text-align: center;
+    }
+
+    .two-columns .column td > *, 
+    .three-columns .column td > *{
+        font-size: 16px;
+    }
+
+    .three-columns .column{
+        max-width: 200px;
+    }
+
+</style>
+</head>
+<body>
+    <center class="wrapper">
+        <table role="presentation" class="main">
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td align="center" class="two-columns"> 
+                                <table class="column">
+                                    <tr>
+                                        <td  style="padding: 0 60px">
+                                            <h2>Test</h2>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="column">
+                                    <tr>
+                                        <td  style="padding: 0 60px">
+                                            <h2>Test 1</h2>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
