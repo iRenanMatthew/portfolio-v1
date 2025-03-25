@@ -1,5 +1,5 @@
 <template>
-  <div class="showcase-card-wrapper">
+  <div class="showcase-card-wrapper pb-[50px]">
     <div
       v-for="design in designs"
       :key="design.id"
@@ -40,6 +40,7 @@ onMounted(async () => {
   justify-content: center;
   gap: 50px;
   margin-top: 50px;
+  padding-bottom: 100px;
 }
 
 .showcase-card {
