@@ -1,120 +1,141 @@
 <template>
- <div class="section">
-  <div class="row">
-    <div class="hero-section">
-      <div class="logo-name-section flex sm:flex-col flex-row justify-center items-center gap-12">
-        <img
-          class="w-[185px] rounded-full"
-          src="../assets/images/logo.png"
-          alt="My Logo - png"
-        />
-        <div class="w-80">
-          <h1 class="text-4xl sm:text-center">
-            <span class="pacifico-regular">Hello</span>👋
+  <div class="section">
+    <div class="row">
+      <div class="hero-section">
+        <div
+          class="logo-name-section flex sm:flex-col flex-row justify-center items-center gap-12"
+        >
+          <img
+            class="w-[185px] rounded-full"
+            src="../assets/images/logo.png"
+            alt="My Logo - png"
+          />
+          <div class="w-80">
+            <h1 class="text-4xl sm:text-center">
+              <span class="pacifico-regular">Hello</span>👋
+            </h1>
+            <h1 class="text-5xl sm:text-center">
+              I am
+              <span class="custom-bg-text-gradient font-extrabold"
+                >Renan Matthew</span
+              >
+            </h1>
+          </div>
+        </div>
+
+        <div class="introduction-section text-center mt-[50px]">
+          <h1
+            class="sm:text-5xl text-6xl font-extrabold custom-bg-text-gradient"
+          >
+            Front End Developer
           </h1>
-          <h1 class="text-5xl sm:text-center">
-            I am
-            <span class="custom-bg-text-gradient font-extrabold"
-              >Renan Matthew</span
-            >
-          </h1>
+          <p class="my-[25px] text-custom-gray">
+            I’m a front-end developer with a strong background to engaging user
+            interfaces. Now, I’m focused on expanding my skills to include
+            back-end development. My goal is to become a full-stack developer,
+            mastering both front-end and back-end technologies to build
+            complete, end-to-end web solutions.
+          </p>
+          <router-link :to="{ name: 'contact' }">
+            <button class="custom-button-gradient">Get In Touch</button>
+          </router-link>
         </div>
       </div>
 
-      <div class="introduction-section text-center mt-[50px]">
-        <h1 class="sm:text-5xl text-6xl font-extrabold custom-bg-text-gradient">
-          Front End Developer
-        </h1>
-        <p class="my-[25px] text-custom-gray">
-          I’m a front-end developer with a strong background to engaging user
-          interfaces. Now, I’m focused on expanding my skills to include
-          back-end development. My goal is to become a full-stack developer,
-          mastering both front-end and back-end technologies to build complete,
-          end-to-end web solutions.
-        </p>
-        <button class="custom-button-gradient">Get In Touch</button>
+      <!-- Skills Section -->
+      <Skills />
+
+      <!-- Projects -->
+      <div class="mt-[100px]">
+        <CategoryTitle title="PROJECTS" />
+
+        <Swiper
+          :modules="modules"
+          :spaceBetween="20"
+          :breakpoints="{
+            768: { slidesPerView: 1 },
+            769: { slidesPerView: 2 },
+          }"
+          :navigation="true"
+          :class="'project-section mt-[50px]'"
+        >
+          <SwiperSlide
+            class="custom-card relative"
+            v-for="project in projects"
+            :key="project.id"
+          >
+            <div
+              class="project-card-bg"
+              :style="{
+                background: `url(${imagePath(
+                  project.img,
+                  'projects'
+                )})center -40px / cover no-repeat`,
+              }"
+            ></div>
+            <router-link :to="{ name: 'projects' }">
+              <div class="custom-card-text">
+                <div class="flex justify-between items-center">
+                  <h2 class="font-extrabold text-2xl">{{ project.name }}</h2>
+                  <img
+                    class="view-icon"
+                    src="../assets///images/view-icon.png"
+                  />
+                </div>
+                <div class="flex gap-1">
+                  <p
+                    class="text-xs font-bold text-custom-gray"
+                    v-for="tag in project.tags"
+                    :key="tag"
+                  >
+                    {{ tag }}
+                  </p>
+                </div>
+              </div>
+            </router-link>
+          </SwiperSlide>
+        </Swiper>
       </div>
+
+      <!-- Experiences -->
+      <Experience />
+
+      <!-- Get in Touch -->
+      <GetInTouch class="mt-[100px]" />
     </div>
-
-    <!-- Skills Section -->
-    <Skills />
-
-    <!-- Projects -->
-    <div class="mt-[100px]">
-      <CategoryTitle title="PROJECTS" />
-
-      <Swiper 
-      :modules="modules" 
-      :spaceBetween="20"
-     :breakpoints="{
-        768: { slidesPerView: 1 }, 
-        769: { slidesPerView: 2 }
-      }"
-      :navigation="true" 
-      :class="'project-section mt-[50px]'">
-        <SwiperSlide class="custom-card relative" v-for="project in projects" :key="project.id">
-          <div class="project-card-bg" :style="{ background: `url(${imagePath(project.image, 'projects')})center -15px / cover no-repeat`}"></div>
-          <div class="custom-card-text">
-            <div class="flex justify-between items-center">
-              <h2 class="font-extrabold text-2xl">{{ project.name }}</h2>
-              <img class="view-icon" src="../assets///images/view-icon.png" />
-            </div>
-            <div class="flex gap-1">
-              <p
-                class="text-xs font-bold text-custom-gray"
-                v-for="tag in project.tags"
-                :key="tag"
-              >
-                {{ tag }}
-              </p>
-            </div>
-          </div>
-        </SwiperSlide>
-      </Swiper>
-    </div>
-
-    <!-- Experiences -->
-    <Experience />
-
-    <!-- Get in Touch -->
-    <GetInTouch class="mt-[100px]"/>
   </div>
-</div>
 </template>
 
 <script setup>
-import { ref, onMounted, watch } from "vue";
-import { useRoute } from 'vue-router';
 import CategoryTitle from "@/components/CategoryTitle.vue";
 import Experience from "@/components/Experience.vue";
 import GetInTouch from "@/components/GetInTouch.vue";
 import Skills from "@/components/Skills.vue";
 import getProjects from "@/composables/getProjects";
-import { Swiper, SwiperSlide } from 'swiper/vue';
-import { Navigation } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-
+import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/vue";
+import { onMounted } from "vue";
+import { useRoute } from "vue-router";
 
 const { projects, error, loadProjects } = getProjects();
 const modules = [Navigation];
 const route = useRoute();
 
 const imagePath = (path, category) => {
-  return `/${category}/${path}`
+  return `/${category}/${path}`;
 };
 
 const updateTitle = () => {
-  const pageTitle = route.meta.title || 'Home — Renan Matthew Portfolio'
+  const pageTitle = route.meta.title || "Home — Renan Matthew Portfolio";
   document.title = pageTitle;
-}
+};
 
-
-onMounted( () => {
+onMounted(() => {
   loadProjects();
   updateTitle();
-})
-
+});
 </script>
 
 <style scoped>
@@ -138,7 +159,7 @@ onMounted( () => {
   height: 15px;
 }
 
-.swiper.project-section{
+.swiper.project-section {
   height: 300px;
 }
 </style>

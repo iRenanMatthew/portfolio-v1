@@ -60,28 +60,43 @@
     "image": "figma-logo"
   },
   {
+    "id": 15,
+    "name": "Wordpress",
+    "image": "wordpress-logo"
+  },
+  {
+    "id": 16,
+    "name": "Webflow",
+    "image": "webflow-logo"
+  },
+  {
+    "id": 17,
+    "name": "Git",
+    "image": "git-logo"
+  },
+  {
+    "id": 18,
+    "name": "Github",
+    "image": "github-logo"
+  },
+  {
+    "id": 19,
+    "name": "MySQL",
+    "image": "mysql-logo"
+  },
+  {
     "id": 12,
     "name": "Photoshop",
     "image": "photoshop-logo"
   },
   {
     "id": 13,
-    "name": "Wordpress",
-    "image": "wordpress-logo"
+    "name": "Premiere Pro",
+    "image": "premiere-logo"
   },
   {
     "id": 14,
-    "name": "Git",
-    "image": "git-logo"
-  },
-  {
-    "id": 15,
-    "name": "Github",
-    "image": "github-logo"
-  },
-  {
-    "id": 16,
-    "name": "MySQL",
-    "image": "mysql-logo"
+    "name": "After Effects",
+    "image": "aftereffects-logo"
   }
 ]

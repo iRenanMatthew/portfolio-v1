@@ -1,0 +1,16 @@
+[
+  {
+    "id": 0,
+    "uiName": "ECommerce UI Design",
+    "uiLink": "https://www.figma.com/proto/5D8S8gr53oKI9QQPAgrepx/Untitled?node-id=1-8&t=ApMxfwWbJ0RV0cFw-1",
+    "uiDesc": "A sleek and user-friendly ecommerce UI designed for seamless shopping experiences. Featuring modern layouts, intuitive navigation, and engaging product displays to enhance user engagement and conversion rates.",
+    "uiImg": "ofix-img.jpg"
+  },
+  {
+    "id": 1,
+    "uiName": "Website Portolio",
+    "uiLink": "https://www.figma.com/proto/AhIdYJb6ENEBVsi9T6HKaB/Untitled?node-id=1-24&t=mbW2GboK5ZHKUKSm-1",
+    "uiDesc": "A collection of my website projects, including custom-built sites using Vue, WordPress, Webflow, and more. Each project highlights my expertise in design, development, and interactive user experiences.",
+    "uiImg": "website-portfolio.jpg"
+  }
+]

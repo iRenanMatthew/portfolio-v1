@@ -44,7 +44,8 @@
               <div class="item-contents">
                 <p class="text-[#C5C5C5]">
                   <span class="font-bold">Frontend: </span>HTML, CSS, SASS,
-                  JavaScript, AngularJS, Vue3, jQuery, Bootstrap, PHP, Laravel
+                  JavaScript, AngularJS, Vue3, jQuery, Bootstrap, Tailwind, PHP,
+                  Wordpress, Webflow
                 </p>
                 <p class="text-[#C5C5C5]">
                   <span class="font-bold">Mobile: </span>Java (Android
@@ -54,14 +55,15 @@
                   <span class="font-bold">Database: </span>MySQL
                 </p>
                 <p class="text-[#C5C5C5]">
-                  <span class="font-bold">CI/CD: </span>Git, Github, Sourcetree,
-                  Bitbucket
-                </p>
-                <p class="text-[#C5C5C5]">
-                  <span class="font-bold">Deploy: </span>Github Pages, AWS
+                  <span class="font-bold">Commit and Deploy tools: </span>Git,
+                  Github, Sourcetree, Bitbucket, Github Pages, Vercel
                 </p>
                 <p class="text-[#C5C5C5]">
                   <span class="font-bold">Design: </span>Figma, Photoshop, Canva
+                </p>
+                <p class="text-[#C5C5C5]">
+                  <span class="font-bold">Other Tools: </span>Premiere Pro,
+                  After Effects
                 </p>
               </div>
             </div>
@@ -69,38 +71,36 @@
         </div>
       </div>
 
-      <Experience/>
-      
-      <GetInTouch class="mt-[100px]"/>
+      <Experience />
+
+      <GetInTouch class="mt-[100px]" />
     </div>
   </div>
 </template>
 
 <script setup>
 import CategoryTitle from "@/components/CategoryTitle.vue";
-import GetInTouch from "@/components/GetInTouch.vue";
 import Experience from "@/components/Experience.vue";
+import GetInTouch from "@/components/GetInTouch.vue";
 import { onMounted } from "vue";
-import { useRoute } from 'vue-router';
+import { useRoute } from "vue-router";
 
 const route = useRoute();
 
 const updateTitle = () => {
-  const pageTitle = route.meta.title || 'About Me — Renan Matthew Portfolio'
+  const pageTitle = route.meta.title || "About Me — Renan Matthew Portfolio";
   document.title = pageTitle;
-}
+};
 
 onMounted(() => {
   updateTitle();
-})
-
+});
 </script>
 <style scoped>
 .about-content .about_item-wrapper .about_item {
   display: grid;
   grid-template-columns: 0.3fr 1fr;
 }
-
 
 @media only screen and (max-width: 768px) {
   .about-content .about_item-wrapper .about_item {
@@ -109,7 +109,7 @@ onMounted(() => {
     margin-bottom: 20px;
     text-align: center;
   }
-  .about-content .about_item-wrapper .about_item h3{
+  .about-content .about_item-wrapper .about_item h3 {
     font-size: 20px;
     margin-bottom: 10px;
   }

@@ -1,15 +1,42 @@
 [
   {
     "id": 0,
+    "position_title": "Web Developer",
+    "company_name": "Archicoders",
+    "company_location": "Imus, Cavite",
+    "startedAt": "December 2024",
+    "endAt": "Present",
+    "description": [
+      "Developed and maintained WordPress websites using HTML, CSS, Javascript, Elementor and ACF for custom post types, ensuring desktop to mobile responsiveness.",
+      "Created email templates with strict HTML and CSS compatibility for cross-client rendering.",
+      "Customize website functionalities with JavaScript and PHP, ensuring smooth user interactions.",
+      "Maintain WooCommerce integrations, writing custom PHP scripts as needed.",
+      "Integrate custom API for user needs for the WordPress websites."
+    ],
+    "skills": [
+      "HTML",
+      "CSS",
+      "PHP",
+      "JavaScript",
+      "Wordpress",
+      "Elementor",
+      "Webflow",
+      "GSAP"
+    ]
+  },
+  {
+    "id": 0,
     "position_title": "Front End Developer",
     "company_name": "Netlingo Support Service Inc.",
     "company_location": "Makati",
     "startedAt": "Nov 2022",
     "endAt": "August 2024",
     "description": [
-      "As a Front End Developer, I played a supporting role in developing or maintaining websites for the company’s client.",
-      "Integrating mock up into website by using HTML, CSS, JavaScript, AngularJS, jQuery, and PHP.",
-      "Collaborating with designers and QA team to improve user experience and completing assign task on time."
+      "Translated mockups into pixel-perfect websites using HTML, CSS, JavaScript, AngularJS, jQuery, and Vue 3.",
+      "Delivered BAU (Business As Usual) tickets on time, ensuring client satisfaction.",
+      "Collaborated with web designers and QA teams to improve UI/UX while enhancing cross-browser compatibility and website accessibility.",
+      "One of the main developers involved in upgrading the company website to Vue 3, implementing modular and reusable components.",
+      "Integrate payment methods on websites with custom-made internal APIs and validations."
     ],
     "skills": [
       "HTML",
@@ -17,6 +44,7 @@
       "PHP",
       "JavaScript",
       "AngularJS",
+      "Vue3",
       "jQuery",
       "Bootstrap",
       "SASS",
@@ -33,9 +61,9 @@
     "startedAt": "April 2022",
     "endAt": "June 2022",
     "description": [
-      "As a Intern Web Developer, my role is to comply with the company assigned tasks and assignments.",
-      "Integrate mock up into websites using  HTML, CSS, JavaScript, and PHP.",
-      "Collaborating with other interns to accomplish assigned tasks by senior developer and presenting and explaining developed outputs to team."
+      "Assisted in integrating HTML, CSS, JavaScript, and PHP for company projects.",
+      "Worked in a team of interns to deliver client-requested features under senior developer guidance.",
+      "Presented project solutions and received feedback from senior developers."
     ],
     "skills": [
       "HTML",
