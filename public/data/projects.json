@@ -10,21 +10,21 @@
   },
   {
     "id": 1,
-    "name": "Shoecase Cleaner",
-    "content": "A shoe cleaner website website crafted using HTML, CSS, Webflow, and GSAP. Designed with smooth animations, responsive layouts, and a refined aesthetic, it delivers an engaging, seamless, and visually stunning user experience.",
+    "name": "Innova Showcase Website",
+    "content": "It is a inspired website from webflow. A modern, visually striking website showcasing architectural designs with HTML, CSS, Webflow, and GSAP. Featuring smooth animations, responsive layouts, and visuals to highlight innovative structures and design excellence.",
     "tags": ["HTML", "CSS", "JavaScript", "Webflow"],
-    "url": "/404",
+    "url": "https://innova-showcase.webflow.io/",
     "internalURL": false,
-    "img": "wip-image.jpg"
+    "img": "innova-agency-img.jpg"
   },
   {
     "id": 2,
-    "name": "Resort Landing Page",
-    "content": "A modern, visually striking website showcasing architectural designs with HTML, CSS, Webflow, and GSAP. Featuring smooth animations, responsive layouts, and immersive visuals to highlight innovative structures and design excellence.",
+    "name": "Shoecase Cleaner Website",
+    "content": "A shoe cleaner website website crafted using HTML, CSS, Webflow, and GSAP. Designed with smooth animations, responsive layouts, and aesthetic, it delivers an engaging, seamless, and visually user experience.",
     "tags": ["HTML", "CSS", "JavaScript", "Webflow"],
-    "url": "/404",
+    "url": "https://shoecare-inspired.webflow.io/",
     "internalURL": false,
-    "img": "wip-image.jpg"
+    "img": "shoecare-img.jpg"
   },
   {
     "id": 3,
