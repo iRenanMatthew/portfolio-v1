@@ -13,7 +13,7 @@
         </div>
       </router-link>
       
-      <div class="hidden lg:flex xl:flex items-center gap-14">
+      <div class="hidden lg:flex xl:flex items-center gap-12">
         <div v-for="link in headerLink" :key="link.id">
           <router-link 
             :to="{ name: link.url }"
@@ -49,9 +49,9 @@
 </template>
 
 <script setup>
-import { onMounted,ref } from "vue";
+import getHeaderLinks from "@/composables/getHeaderLinks";
+import { onMounted, ref } from "vue";
 import { useRoute } from 'vue-router';
-import getHeaderLinks from "@/composables/getHeaderLinks"
 
 const route = useRoute();
 const isMenuOpen = ref(false);

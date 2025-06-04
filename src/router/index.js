@@ -6,6 +6,7 @@ import NotFoundView from "@/views/NotFoundView.vue";
 import ProjectsView from "@/views/ProjectsView.vue";
 import UIDesignView from "@/views/UIDesignView.vue";
 import VideoCreationsView from "@/views/VideoCreationsView.vue";
+import WebDevDailyHabitView from "@/views/WebDevDailyHabitView.vue";
 import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
@@ -43,7 +44,7 @@ const routes = [
   },
   {
     path: "/projects/email-templates",
-    name: "Email Templates",
+    name: "email-templates",
     component: EmailTemplatesView,
     meta: {
       title: "Email Templates — Renan Matthew Portfolio",
@@ -51,7 +52,7 @@ const routes = [
   },
   {
     path: "/projects/ui-designs",
-    name: "UI Designs",
+    name: "ui-designs",
     component: UIDesignView,
     meta: {
       title: "UI Designs — Renan Matthew Portfolio",
@@ -59,13 +60,20 @@ const routes = [
   },
   {
     path: "/projects/video-creations",
-    name: "Video Creations",
+    name: "video-creations",
     component: VideoCreationsView,
     meta: {
       title: "Video Creations — Renan Matthew Portfolio",
     },
   },
-
+  {
+    path: "/web-development-daily-habit",
+    name: "web-development-daily-habit",
+    component: WebDevDailyHabitView,
+    meta: {
+      title: "Daily Study of Web Dev - Renan Matthew Portfolio",
+    },
+  },
   // 404
   {
     path: "/:pathMatch(.*)",

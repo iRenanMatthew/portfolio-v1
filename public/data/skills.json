@@ -2,101 +2,161 @@
   {
     "id": 0,
     "name": "HTML",
-    "image": "html-logo"
+    "image": "html-logo",
+    "category": "web",
+    "badgeLogo": "HTML5-E34F26",
+    "badgeName": "html5"
   },
   {
     "id": 1,
     "name": "CSS",
-    "image": "css-logo"
+    "image": "css-logo",
+    "category": "web",
+    "badgeLogo": "CSS3-1572B6",
+    "badgeName": "css3"
   },
   {
     "id": 2,
     "name": "JavaScript",
-    "image": "html-logo"
+    "image": "javascript-logo",
+    "category": "web",
+    "badgeLogo": "JavaScript-F7DF1E",
+    "badgeName": "javascript"
   },
   {
     "id": 3,
     "name": "Vue",
-    "image": "vue-logo"
+    "image": "vue-logo",
+    "category": "web",
+    "badgeLogo": "Vue.js-35495E",
+    "badgeName": "vue.js"
   },
   {
     "id": 4,
     "name": "AngularJS",
-    "image": "angularjs-logo"
+    "image": "angularjs-logo",
+    "category": "web",
+    "badgeLogo": "AngularJS-E23237",
+    "badgeName": "angularjs"
   },
   {
     "id": 5,
     "name": "PHP",
-    "image": "php-logo"
+    "image": "php-logo",
+    "category": "web",
+    "badgeLogo": "PHP-777BB4",
+    "badgeName": "php"
   },
   {
     "id": 6,
     "name": "Java",
-    "image": "java-logo"
+    "image": "java-logo",
+    "category": "web",
+    "badgeLogo": "Java-007396",
+    "badgeName": "java"
   },
   {
     "id": 7,
     "name": "jQuery",
-    "image": "jquery-logo"
+    "image": "jquery-logo",
+    "category": "web",
+    "badgeLogo": "jQuery-0769AD",
+    "badgeName": "jquery"
   },
   {
     "id": 8,
     "name": "Bootstrap",
-    "image": "bootstrap-logo"
+    "image": "bootstrap-logo",
+    "category": "web",
+    "badgeLogo": "Bootstrap-7952B3",
+    "badgeName": "bootstrap"
   },
   {
     "id": 9,
     "name": "Tailwind",
-    "image": "tailwind-logo"
+    "image": "tailwind-logo",
+    "category": "web",
+    "badgeLogo": "Tailwind_CSS-06B6D4",
+    "badgeName": "tailwind-css"
   },
   {
     "id": 10,
     "name": "SASS",
-    "image": "sass-logo"
+    "image": "sass-logo",
+    "category": "web",
+    "badgeLogo": "Sass-CC6699",
+    "badgeName": "sass"
   },
   {
     "id": 11,
     "name": "Figma",
-    "image": "figma-logo"
+    "image": "figma-logo",
+    "category": "web",
+    "badgeLogo": "Figma-F24E1E",
+    "badgeName": "figma"
   },
   {
     "id": 15,
     "name": "Wordpress",
-    "image": "wordpress-logo"
+    "image": "wordpress-logo",
+    "category": "web",
+    "badgeLogo": "WordPress-21759B",
+    "badgeName": "wordpress"
   },
   {
     "id": 16,
     "name": "Webflow",
-    "image": "webflow-logo"
+    "image": "webflow-logo",
+    "category": "web",
+    "badgeLogo": "Webflow-4353FF",
+    "badgeName": "webflow"
   },
   {
     "id": 17,
     "name": "Git",
-    "image": "git-logo"
+    "image": "git-logo",
+    "category": "web",
+    "badgeLogo": "Git-F05032",
+    "badgeName": "git"
   },
   {
     "id": 18,
     "name": "Github",
-    "image": "github-logo"
+    "image": "github-logo",
+    "category": "web",
+    "badgeLogo": "GitHub-181717",
+    "badgeName": "github"
   },
   {
     "id": 19,
     "name": "MySQL",
-    "image": "mysql-logo"
+    "image": "mysql-logo",
+    "category": "web",
+    "badgeLogo": "MySQL-4479A1",
+    "badgeName": "mysql"
   },
   {
     "id": 12,
     "name": "Photoshop",
-    "image": "photoshop-logo"
+    "image": "photoshop-logo",
+    "category": "multimedia",
+    "badgeLogo": "Adobe_Photoshop-31A8FF",
+    "badgeName": "adobephotoshop"
   },
   {
     "id": 13,
     "name": "Premiere Pro",
-    "image": "premiere-logo"
+    "image": "premiere-logo",
+    "category": "multimedia",
+    "badgeLogo": "Adobe_Premiere_Pro-9999FF",
+    "badgeName": "adobepremierepro"
   },
   {
     "id": 14,
     "name": "After Effects",
-    "image": "aftereffects-logo"
+    "image": "aftereffects-logo",
+    "category": "multimedia",
+    "badgeLogo": "Adobe_After_Effects-9999FF",
+    "badgeName": "adobeaftereffects"
   }
 ]

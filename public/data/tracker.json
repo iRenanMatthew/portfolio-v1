@@ -1,0 +1,29 @@
+[
+  {
+    "day": 1,
+    "date": "June 2, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 30
+    },
+    "tech_used": ["html5", "css3", "javascript", "vuejs"]
+  },
+  {
+    "day": 2,
+    "date": "June 3, 2025",
+    "time_consumed": {
+      "hour": 2,
+      "minutes": 0
+    },
+    "tech_used": ["html5", "css3", "javascript", "vuejs"]
+  },
+    {
+    "day": 3,
+    "date": "June 4, 2025",
+    "time_consumed": {
+      "hour": 2,
+      "minutes": 10
+    },
+    "tech_used": ["html5", "css3", "javascript", "vuejs"]
+  }
+]
