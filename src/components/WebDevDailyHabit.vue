@@ -7,6 +7,7 @@
   />
 
   <p class="text-center my-5">Inspired from <a href="https://theicedev.netlify.app/" target="_blank" rel="noreferrer" class="underline font-bold">@dev.iceice</a></p>
+  <p class="text-center my-5">Note: Some days are kept under 1 hour for light studying to avoid burnout.</p>
   <div>
 
     <div class="tracker-info card p-5">
