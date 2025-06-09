@@ -31,7 +31,7 @@
 
     <hr class="my-5">
 
-    <div class="data-info-wrapper flex gap-5 justify-between">
+    <div class="data-info-wrapper flex gap-5 justify-start flex-wrap">
       <div class="flex flex-col gap-3 items-center p-5 card" v-for="data in webDailyTracker" :key="data.day">
         <div>
           <h2 class="font-bold text-3xl text-center">Day {{ data.day }}</h2>
@@ -45,7 +45,7 @@
 
         <div class="">
           <h2 class="font-bold text-center">Tech Used</h2>
-          <div class="flex gap-1.5">
+          <div class="flex gap-1.5 justify-center">
             <img v-for="techUsed in data.tech_used" :src="getImageBadge(techUsed)" :title="techUsed - logo" :alt="techUsed - logo" width="20" height="20">
           </div>
         </div>
@@ -124,6 +124,16 @@ watchEffect(() => {
   -webkit-backdrop-filter: blur( 15px );
   border-radius: 12px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.data-info-wrapper .card{
+  width: calc(100% / 3 - 14px);
+}
+
+@media screen and (max-width: 767px) {
+  .data-info-wrapper .card{
+    width: 100%
+  }
 }
 
 </style>

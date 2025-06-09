@@ -61,5 +61,14 @@
       "minutes": 0
     },
     "tech_used": ["javascript"]
+  },
+  {
+    "day": 8,
+    "date": "June 9, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 30
+    },
+    "tech_used": ["html5", "css3", "javascript", "vuejs"]
   }
 ]
