@@ -97,5 +97,23 @@
       "minutes": 40
     },
     "tech_used": ["html5","css3","javascript"]
+  },
+  {
+    "day": 12,
+    "date": "June 13, 2025",
+    "time_consumed": {
+      "hour": 0,
+      "minutes": 30
+    },
+    "tech_used": ["javascript"]
+  },
+  {
+    "day": 13,
+    "date": "June 14, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 10
+    },
+    "tech_used": ["javascript"]
   }
 ]
