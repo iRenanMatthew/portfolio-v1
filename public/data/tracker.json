@@ -6,7 +6,12 @@
       "hour": 1,
       "minutes": 30
     },
-    "tech_used": ["html5", "css3", "javascript", "vuejs"]
+    "tech_used": [
+      "html5",
+      "css3",
+      "javascript",
+      "vuejs"
+    ]
   },
   {
     "day": 2,
@@ -15,7 +20,12 @@
       "hour": 2,
       "minutes": 0
     },
-    "tech_used": ["html5", "css3", "javascript", "vuejs"]
+    "tech_used": [
+      "html5",
+      "css3",
+      "javascript",
+      "vuejs"
+    ]
   },
   {
     "day": 3,
@@ -24,7 +34,12 @@
       "hour": 2,
       "minutes": 10
     },
-    "tech_used": ["html5", "css3", "javascript", "vuejs"]
+    "tech_used": [
+      "html5",
+      "css3",
+      "javascript",
+      "vuejs"
+    ]
   },
   {
     "day": 4,
@@ -33,7 +48,9 @@
       "hour": 0,
       "minutes": 36
     },
-    "tech_used": ["javascript"]
+    "tech_used": [
+      "javascript"
+    ]
   },
   {
     "day": 5,
@@ -42,7 +59,9 @@
       "hour": 0,
       "minutes": 40
     },
-    "tech_used": ["javascript"]
+    "tech_used": [
+      "javascript"
+    ]
   },
   {
     "day": 6,
@@ -51,7 +70,9 @@
       "hour": 1,
       "minutes": 0
     },
-    "tech_used": ["javascript"]
+    "tech_used": [
+      "javascript"
+    ]
   },
   {
     "day": 7,
@@ -60,7 +81,9 @@
       "hour": 1,
       "minutes": 0
     },
-    "tech_used": ["javascript"]
+    "tech_used": [
+      "javascript"
+    ]
   },
   {
     "day": 8,
@@ -69,7 +92,12 @@
       "hour": 1,
       "minutes": 30
     },
-    "tech_used": ["html5", "css3", "javascript", "vuejs"]
+    "tech_used": [
+      "html5",
+      "css3",
+      "javascript",
+      "vuejs"
+    ]
   },
   {
     "day": 9,
@@ -78,7 +106,9 @@
       "hour": 0,
       "minutes": 30
     },
-    "tech_used": ["javascript"]
+    "tech_used": [
+      "javascript"
+    ]
   },
   {
     "day": 10,
@@ -87,7 +117,11 @@
       "hour": 3,
       "minutes": 23
     },
-    "tech_used": ["html5","css3","javascript"]
+    "tech_used": [
+      "html5",
+      "css3",
+      "javascript"
+    ]
   },
   {
     "day": 11,
@@ -96,7 +130,11 @@
       "hour": 0,
       "minutes": 40
     },
-    "tech_used": ["html5","css3","javascript"]
+    "tech_used": [
+      "html5",
+      "css3",
+      "javascript"
+    ]
   },
   {
     "day": 12,
@@ -105,7 +143,9 @@
       "hour": 0,
       "minutes": 30
     },
-    "tech_used": ["javascript"]
+    "tech_used": [
+      "javascript"
+    ]
   },
   {
     "day": 13,
@@ -114,6 +154,228 @@
       "hour": 1,
       "minutes": 10
     },
-    "tech_used": ["javascript"]
+    "tech_used": [
+      "javascript"
+    ]
+  },
+  {
+    "day": 14,
+    "date": "June 15, 2025",
+    "time_consumed": {
+      "hour": 2,
+      "minutes": 0
+    },
+    "tech_used": [
+      "python"
+    ]
+  },
+  {
+    "day": 15,
+    "date": "June 16, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 30
+    },
+    "tech_used": [
+      "python"
+    ]
+  },
+  {
+    "day": 16,
+    "date": "June 17, 2025",
+    "time_consumed": {
+      "hour": 0,
+      "minutes": 30
+    },
+    "tech_used": [
+      "python"
+    ]
+  },
+  {
+    "day": 17,
+    "date": "June 18, 2025",
+    "time_consumed": {
+      "hour": 0,
+      "minutes": 30
+    },
+    "tech_used": [
+      "python"
+    ]
+  },
+  {
+    "day": 18,
+    "date": "June 19, 2025",
+    "time_consumed": {
+      "hour": 0,
+      "minutes": 30
+    },
+    "tech_used": [
+      "excel"
+    ]
+  },
+  {
+    "day": 19,
+    "date": "June 20, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel"
+    ]
+  },
+  {
+    "day": 20,
+    "date": "June 21, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "python"
+    ]
+  },
+  {
+    "day": 21,
+    "date": "June 22, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "python"
+    ]
+  },
+  {
+    "day": 22,
+    "date": "June 23, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "python"
+    ]
+  },
+  {
+    "day": 23,
+    "date": "June 24, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "python"
+    ]
+  },
+  {
+    "day": 24,
+    "date": "June 25, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "mysql"
+    ]
+  },
+  {
+    "day": 25,
+    "date": "June 26, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 30
+    },
+    "tech_used": [
+      "mysql"
+    ]
+  },
+  {
+    "day": 26,
+    "date": "June 27, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "mysql"
+    ]
+  },
+  {
+    "day": 27,
+    "date": "June 28, 2025",
+    "time_consumed": {
+      "hour": 4,
+      "minutes": 30
+    },
+    "tech_used": [
+      "mysql"
+    ]
+  },
+  {
+    "day": 28,
+    "date": "June 29, 2025",
+    "time_consumed": {
+      "hour": 3,
+      "minutes": 30
+    },
+    "tech_used": [
+      "mysql"
+    ]
+  },
+  {
+    "day": 29,
+    "date": "June 30, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 30
+    },
+    "tech_used": [
+      "mysql"
+    ]
+  },
+  {
+    "day": 30,
+    "date": "July 01, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "mysql"
+    ]
+  },
+  {
+    "day": 31,
+    "date": "July 02, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 30
+    },
+    "tech_used": [
+      "mysql"
+    ]
+  },
+  {
+    "day": 32,
+    "date": "July 03, 2025",
+    "time_consumed": {
+      "hour": 2,
+      "minutes": 0
+    },
+    "tech_used": [
+      "postgresql"
+    ]
+  },
+  {
+    "day": 33,
+    "date": "July 04, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "mysql"
+    ]
   }
 ]

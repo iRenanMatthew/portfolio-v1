@@ -131,9 +131,17 @@
     "id": 19,
     "name": "MySQL",
     "image": "mysql-logo",
-    "category": "web",
+    "category": "data",
     "badgeLogo": "MySQL-4479A1",
     "badgeName": "mysql"
+  },
+  {
+    "id": 21,
+    "name": "Python",
+    "image": "python-logo",
+    "category": "data",
+    "badgeLogo": "Python-3776AB",
+    "badgeName": "python"
   },
   {
     "id": 12,

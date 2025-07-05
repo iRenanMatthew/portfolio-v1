@@ -67,8 +67,8 @@ const routes = [
     },
   },
   {
-    path: "/web-development-daily-habit",
-    name: "web-development-daily-habit",
+    path: "/study-daily-habit",
+    name: "study-daily-habit",
     component: WebDevDailyHabitView,
     meta: {
       title: "Daily Study of Web Dev - Renan Matthew Portfolio",

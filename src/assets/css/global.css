@@ -129,6 +129,18 @@ body {
   right: 0;
 }
 
+
+.excel-logo,
+.mysql-logo {
+  background: rgb(0, 141, 77);
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.mysql-logo{
+  background: #FFFFFF;
+}
+
 @media only screen and (max-width: 768px) {
   .row{
     width: 100%;

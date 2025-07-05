@@ -2,7 +2,7 @@
   <div class="section">
     <div class="habit row">
       <CategoryTitle
-        title="Web Development Study Tracker"
+        title="Daily Study Tracker: Web Dev to Data Career"
         size="5xl"
         tag="h1"
       />
@@ -21,7 +21,7 @@ const route = useRoute();
 
 const updateTitle = () => {
   const pageTitle =
-    route.meta.title || "Studying web development for 1 hour or more each day.";
+    route.meta.title || "Daily 1-hour study habit: Web development to data career transition";
   document.title = pageTitle;
 };
 
