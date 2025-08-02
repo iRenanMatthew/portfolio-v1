@@ -618,5 +618,165 @@
       "mysql"
     ],
     "journal": "Waiting for the journal"
+  },
+  {
+    "day": 50,
+    "date": "July 21, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "mysql"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 51,
+    "date": "July 22, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "mysql"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 52,
+    "date": "July 23, 2025",
+    "time_consumed": {
+      "hour": 0,
+      "minutes": 30
+    },
+    "tech_used": [
+      "mysql"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 53,
+    "date": "July 24, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "mysql"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 54,
+    "date": "July 25, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "mysql"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 55,
+    "date": "July 26, 2025",
+    "time_consumed": {
+      "hour": 2,
+      "minutes": 0
+    },
+    "tech_used": [
+      "mysql"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 56,
+    "date": "July 27, 2025",
+    "time_consumed": {
+      "hour": 5,
+      "minutes": 0
+    },
+    "tech_used": [
+      "mysql",
+      "excel"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 57,
+    "date": "July 28, 2025",
+    "time_consumed": {
+      "hour": 5,
+      "minutes": 0
+    },
+    "tech_used": [
+      "mysql",
+      "excel"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 58,
+    "date": "July 29, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "mysql",
+      "excel"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 59,
+    "date": "July 30, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "mysql",
+      "excel"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 60,
+    "date": "July 31, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "mysql"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 61,
+    "date": "August 01, 2025",
+    "time_consumed": {
+      "hour": 0,
+      "minutes": 30
+    },
+    "tech_used": [
+      "mysql"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 62,
+    "date": "August 02, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "mysql"
+    ],
+    "journal": "Waiting for the journal"
   }
 ]
