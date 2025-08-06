@@ -7,11 +7,12 @@
     "startedAt": "December 2024",
     "endAt": "Present",
     "description": [
-      "Developed and maintained WordPress websites using HTML, CSS, Javascript, Elementor and ACF for custom post types, ensuring desktop to mobile responsiveness.",
-      "Created email templates with strict HTML and CSS compatibility for cross-client rendering.",
-      "Customize website functionalities with JavaScript and PHP, ensuring smooth user interactions.",
-      "Maintain WooCommerce integrations, writing custom PHP scripts as needed.",
-      "Integrate custom API for user needs for the WordPress websites."
+      "Built and maintained multiple WordPress websites using HTML, CSS, JavaScript, Elementor, WooCommerce, and light PHP coding to enhance design and functionality.",
+      "Integrated third-party APIs, including Stripe custom checkout flows, focusing on front-end setup, styling, and seamless user experience.",
+      "Performed basic SEO configuration using Yoast and optimized websites to achieve high PageSpeed performance scores.",
+      "Developed and customized WooCommerce stores and multi-step/conditional forms (JetFormBuilder) for calculations, data collection, and improved site interactivity.",
+      "Delivered minimal Webflow websites, customizing templates for responsive and fast-loading pages.",
+      "Collaborated via non-voice channels with designers, project managers, team leads, and clients to troubleshoot issues, apply post-handover fixes, and ensure smooth website performance."
     ],
     "skills": [
       "HTML",
@@ -32,11 +33,10 @@
     "startedAt": "Nov 2022",
     "endAt": "August 2024",
     "description": [
-      "Translated mockups into pixel-perfect websites using HTML, CSS, JavaScript, AngularJS, jQuery, and Vue 3.",
-      "Delivered BAU (Business As Usual) tickets on time, ensuring client satisfaction.",
-      "Collaborated with web designers and QA teams to improve UI/UX while enhancing cross-browser compatibility and website accessibility.",
-      "One of the main developers involved in upgrading the company website to Vue 3, implementing modular and reusable components.",
-      "Integrate payment methods on websites with custom-made internal APIs and validations."
+      "Developed responsive, pixel-perfect websites using HTML, CSS, JavaScript, AngularJS, Vue 3, and jQuery based on Figma and client mockups.",
+      "Assisted in migrating company platforms to Vue 3, creating modular and reusable components for improved scalability.",
+      "Implemented custom payment solutions via APIs, ensuring secure and efficient transactions for client websites.",
+      "Worked closely with designers, QA teams, project managers, and team leads to troubleshoot issues, enhance cross-browser compatibility, and improve user experience."
     ],
     "skills": [
       "HTML",
@@ -61,9 +61,9 @@
     "startedAt": "April 2022",
     "endAt": "June 2022",
     "description": [
-      "Assisted in integrating HTML, CSS, JavaScript, and PHP for company projects.",
-      "Worked in a team of interns to deliver client-requested features under senior developer guidance.",
-      "Presented project solutions and received feedback from senior developers."
+      "Supported website development using HTML, CSS, JavaScript, and PHP under the guidance of senior developers.",
+      "Assisted in small feature implementations, styling updates, and bug fixes for client projects.",
+      "Participated in team code reviews and feedback sessions, gaining best practices for web development and debugging."
     ],
     "skills": [
       "HTML",

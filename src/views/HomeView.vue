@@ -30,11 +30,7 @@
             Front End Developer
           </h1>
           <p class="my-[25px] text-custom-gray">
-            I’m a front-end developer with a strong background to engaging user
-            interfaces. Now, I’m focused on expanding my skills to include
-            back-end development. My goal is to become a full-stack developer,
-            mastering both front-end and back-end technologies to build
-            complete, end-to-end web solutions.
+            I’m a front-end developer with experience building responsive websites using HTML, CSS, JavaScript, and WordPress (Elementor, WooCommerce). I focus on creating seamless user experiences with custom styling, API integrations, and basic SEO optimization. My goal is to deliver high-performing, user-friendly websites while continuously expanding my development skills.
           </p>
           <router-link :to="{ name: 'contact' }">
             <button class="custom-button-gradient">Get In Touch</button>
