@@ -826,5 +826,41 @@
       "excel"
     ],
     "journal": "Waiting for the journal"
+  },
+      {
+    "day": 67,
+    "date": "August 07, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel"
+    ],
+    "journal": "Waiting for the journal"
+  },
+      {
+    "day": 68,
+    "date": "August 08, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel"
+    ],
+    "journal": "Waiting for the journal"
+  },
+      {
+    "day": 69,
+    "date": "August 09, 2025",
+    "time_consumed": {
+      "hour": 5,
+      "minutes": 0
+    },
+    "tech_used": [
+      "html","css","javascript","excel"
+    ],
+    "journal": "Waiting for the journal"
   }
 ]
