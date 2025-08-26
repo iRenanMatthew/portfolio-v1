@@ -1,27 +1,48 @@
 [
   {
     "id": 0,
-    "videoName": "Game Clip Edit #1 (Commissioned)",
-    "videoLink": "https://drive.google.com/file/d/1chDDUF48zFFnF5xGvfdepKBJo6v1Hb-9/view",
-    "videoDesc": "A fast-paced edit packed with clutch plays, hilarious fails, and perfectly timed effects. Smooth transitions, synced beats, and epic moments bring the chaos and comedy of Valorant to life!",
-    "videoImg": "valorant-edit-1.jpg"
+    "videoName": "Long Form - Game Show Edit (Commissioned)",
+    "videoLink": "https://drive.google.com/file/d/1J-gnelCRQKB9PV90ThV-7_-57qmMBuKO/view?usp=drive_link",
+    "videoDesc": "A fun and engaging edit packed with dramatic zoom-ins, sound effects, and fast-paced cuts to capture the excitement and humor of a game show. Perfectly timed reactions and dynamic transitions keep the energy high!",
+    "videoImg": "tp-or-kabayong.jpg"
   },
   {
     "id": 1,
-    "videoName": "Game Clip Edit #2 (Commissioned)",
+    "videoName": "Long Form - Game Content Edit #1 (Commissioned)",
     "videoLink": "https://drive.google.com/file/d/1lTthCczs6cTEMrwAlUUO0MzpBlZuApku/view?usp=drive_link",
     "videoDesc": "A mix of high-energy action and hilarious in-game moments, featuring smooth transitions, epic stunts, and perfectly timed comedic edits. Chaos, explosions, and laughs—packed into one epic montage!",
     "videoImg": "gta-edit-1.jpg"
   },
   {
     "id": 2,
-    "videoName": "Game Show Edit (Commissioned)",
-    "videoLink": "https://drive.google.com/file/d/1J-gnelCRQKB9PV90ThV-7_-57qmMBuKO/view?usp=drive_link",
-    "videoDesc": "A fun and engaging edit packed with dramatic zoom-ins, sound effects, and fast-paced cuts to capture the excitement and humor of a game show. Perfectly timed reactions and dynamic transitions keep the energy high!",
-    "videoImg": "tp-or-kabayong.jpg"
+    "videoName": "Long Form - Game Content Edit #2 (Commissioned)",
+    "videoLink": "https://drive.google.com/file/d/1chDDUF48zFFnF5xGvfdepKBJo6v1Hb-9/view",
+    "videoDesc": "A fast-paced edit packed with clutch plays, hilarious fails, and perfectly timed effects. Smooth transitions, synced beats, and epic moments bring the chaos and comedy of Valorant to life!",
+    "videoImg": "valorant-edit-1.jpg"
   },
   {
     "id": 3,
+    "videoName": "Long Form - Game Content Edit #3 (Commissioned)",
+    "videoLink": "https://drive.google.com/file/d/1o5ZGGYu1R4z3YJCOgjCpcpqMXd5OIKnB/view",
+    "videoDesc": "An adrenaline-fueled montage filled with insane clutches, funny misplays, and spot-on edits. Seamless transitions, beat-perfect cuts, and unforgettable highlights capture the hype and humor of Valorant!",
+    "videoImg": "valorant_thumbnail-2.png"
+  },
+  {
+    "id": 4,
+    "videoName": "Short Form - Game Clip Edit #1 (Commissioned)",
+    "videoLink": "https://drive.google.com/file/d/1Q1lXia2DsPm9-QR9vRdgRX08AVVbrR5Q/view",
+    "videoDesc": "Grand Theft Auto but every corner is a Pokémon battle waiting to happen.",
+    "videoImg": "pokemon_thumbnail.png"
+  },
+  {
+    "id": 5,
+    "videoName": "Short Form - Game Clip Edit #2 (Commissioned)",
+    "videoLink": "https://drive.google.com/file/d/1wjf4NOPn0xXDvxPDCgVaNrWEAA_M-A4p/view?usp",
+    "videoDesc": "Gang encounter speedrun: from tough guy to wasted in 3 seconds.",
+    "videoImg": "gta_thumbnail-3.png"
+  },
+  {
+    "id": 6,
     "videoName": "Anime Edit (Competition)",
     "videoLink": "https://drive.google.com/file/d/1flEqzDgc8bkb7qhp6_F6ldhngXf_gx3N/view?usp=drive_link",
     "videoDesc": "A high-impact anime edit featuring smooth transitions, color effects, and beat-synced cuts to bring epic fights, emotional scenes, and iconic moments to life. Every frame is crafted for maximum hype!",
