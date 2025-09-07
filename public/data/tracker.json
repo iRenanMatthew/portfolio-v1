@@ -428,18 +428,6 @@
     "journal": "Waiting for the journal"
   },
   {
-    "day": 34,
-    "date": "July 05, 2025",
-    "time_consumed": {
-      "hour": 1,
-      "minutes": 0
-    },
-    "tech_used": [
-      "mysql"
-    ],
-    "journal": "Waiting for the journal"
-  },
-  {
     "day": 35,
     "date": "July 06, 2025",
     "time_consumed": {
@@ -851,7 +839,7 @@
     ],
     "journal": "Waiting for the journal"
   },
-      {
+  {
     "day": 69,
     "date": "August 09, 2025",
     "time_consumed": {
@@ -860,6 +848,354 @@
     },
     "tech_used": [
       "html5","css3","javascript","excel"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 70,
+    "date": "August 10, 2025",
+    "time_consumed": {
+      "hour": 4,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 71,
+    "date": "August 11, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel","postgresql"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 72,
+    "date": "August 12, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel","postgresql"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 73,
+    "date": "August 13, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel","postgresql"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 74,
+    "date": "August 14, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 75,
+    "date": "August 15, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "postgresql"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 76,
+    "date": "August 16, 2025",
+    "time_consumed": {
+      "hour": 2,
+      "minutes": 0
+    },
+    "tech_used": [
+      "postgresql"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 77,
+    "date": "August 17, 2025",
+    "time_consumed": {
+      "hour": 5,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 78,
+    "date": "August 18, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 79,
+    "date": "August 19, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel","postgresql"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 80,
+    "date": "August 20, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel","postgresql"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 81,
+    "date": "August 21, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 82,
+    "date": "August 22, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "postgresql"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 83,
+    "date": "August 23, 2025",
+    "time_consumed": {
+      "hour": 3,
+      "minutes": 0
+    },
+    "tech_used": [
+      "postgresql"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 84,
+    "date": "August 24, 2025",
+    "time_consumed": {
+      "hour": 5,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel","postgresql"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 85,
+    "date": "August 25, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 86,
+    "date": "August 26, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 87,
+    "date": "August 27, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 88,
+    "date": "August 28, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 89,
+    "date": "August 29, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 90,
+    "date": "August 30, 2025",
+    "time_consumed": {
+      "hour": 2,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel","postgresql"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 91,
+    "date": "August 31, 2025",
+    "time_consumed": {
+      "hour": 5,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel","powerbi"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 92,
+    "date": "September 01, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel","powerbi"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 93,
+    "date": "September 02, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel","powerbi"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 94,
+    "date": "September 03, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel","powerbi"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 95,
+    "date": "September 04, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "excel","powerbi"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 96,
+    "date": "September 05, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "python"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 97,
+    "date": "September 06, 2025",
+    "time_consumed": {
+      "hour": 4,
+      "minutes": 0
+    },
+    "tech_used": [
+      "python","django","php"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 98,
+    "date": "September 07, 2025",
+    "time_consumed": {
+      "hour": 4,
+      "minutes": 0
+    },
+    "tech_used": [
+      "python","django","php"
     ],
     "journal": "Waiting for the journal"
   }

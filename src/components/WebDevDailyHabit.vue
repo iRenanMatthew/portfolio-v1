@@ -1,6 +1,6 @@
 <template>
   <CategoryTitle
-    title="Dedicating over an hour daily to studying data analytics and engineering, including SQL, Python, and ETL workflows, to transition from web development into a data-driven career."
+    title="Studying web development and data skills for 1 hour or more each day."
     tag="h2" size="l" class="mt-5" />
 
   <p class="text-center my-5">
@@ -147,6 +147,10 @@ const getImageBadge = (logo, name) => {
   const customIcons = {
     excel:
       "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/microsoftexcel.svg",
+    powerbi:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/New_Power_BI_Logo.svg/1200px-New_Power_BI_Logo.svg.png",
+    django:
+      "https://www.svgrepo.com/show/353657/django-icon.svg",
   };
 
   if (customIcons[logo]) {
