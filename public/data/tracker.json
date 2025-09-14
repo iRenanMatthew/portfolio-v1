@@ -1246,5 +1246,53 @@
       "python","php"
     ],
     "journal": "Waiting for the journal"
+  },
+  {
+    "day": 102,
+    "date": "September 11, 2025",
+    "time_consumed": {
+      "hour": 1,
+      "minutes": 0
+    },
+    "tech_used": [
+      "python","php"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 103,
+    "date": "September 12, 2025",
+    "time_consumed": {
+      "hour": 0,
+      "minutes": 30
+    },
+    "tech_used": [
+      "python"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 104,
+    "date": "September 13, 2025",
+    "time_consumed": {
+      "hour": 2,
+      "minutes": 0
+    },
+    "tech_used": [
+      "python","react"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 105,
+    "date": "September 14, 2025",
+    "time_consumed": {
+      "hour": 6,
+      "minutes": 0
+    },
+    "tech_used": [
+      "python","react","powerbi"
+    ],
+    "journal": "Waiting for the journal"
   }
 ]
