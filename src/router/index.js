@@ -7,6 +7,7 @@ import ProjectsView from "@/views/ProjectsView.vue";
 import UIDesignView from "@/views/UIDesignView.vue";
 import VideoCreationsView from "@/views/VideoCreationsView.vue";
 import WebDevDailyHabitView from "@/views/WebDevDailyHabitView.vue";
+import WebsitesView from "@/views/WebsitesView.vue";
 import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
@@ -48,6 +49,14 @@ const routes = [
     component: EmailTemplatesView,
     meta: {
       title: "Email Templates — Renan Matthew Portfolio",
+    },
+  },
+  {
+    path: "/projects/websites",
+    name: "websites",
+    component: WebsitesView,
+    meta: {
+      title: "Websites — Renan Matthew Portfolio",
     },
   },
   {

@@ -1,50 +1,54 @@
 [
   {
     "id": 0,
-    "position_title": "Web Developer",
+    "position_title": "Jr. Web Developer (On-site)",
     "company_name": "Archicoders",
-    "company_location": "Imus, Cavite",
+    "company_location": "Cavite, Philippines",
     "startedAt": "December 2024",
     "endAt": "Present",
     "description": [
-      "Built and maintained multiple WordPress websites using HTML, CSS, JavaScript, Elementor, WooCommerce, and light PHP coding to enhance design and functionality.",
-      "Integrated third-party APIs, including Stripe custom checkout flows, focusing on front-end setup, styling, and seamless user experience.",
-      "Performed basic SEO configuration using Yoast and optimized websites to achieve high PageSpeed performance scores.",
-      "Developed and customized WooCommerce stores and multi-step/conditional forms (JetFormBuilder) for calculations, data collection, and improved site interactivity.",
-      "Delivered minimal Webflow websites, customizing templates for responsive and fast-loading pages.",
-      "Collaborated via non-voice channels with designers, project managers, team leads, and clients to troubleshoot issues, apply post-handover fixes, and ensure smooth website performance."
+      "Integrated 3 third-party APIs: Gemini AI story generation based on form inputs, Stripe custom checkout flows, and custom radio station integrations.",
+      "Built 12 WordPress websites using HTML, CSS, JavaScript, Elementor, WooCommerce, and PHP.",
+      "Achieved 90+ PageSpeed scores on all deployed WordPress websites through optimization and clean code practices.",
+      "Created client documentation and video tutorials for 5 WordPress sites, covering content management, post creation, and admin workflows for non-technical users.",
+      "Developed 2 custom WooCommerce stores with tailored CSS styling and checkout experiences.",
+      "Created multi-step conditional forms for data collection and complex calculations in WordPress.",
+      "Collaborated with designers and project managers to deliver responsive, fast-loading websites.",
+      "Tools & Tech used: HTML, CSS (SASS), JavaScript (ES6+), PHP, WordPress, Elementor, Webflow, WooCommerce, jQuery, GSAP, MySQL, VS Code, FileZilla, Figma, Photoshop, Canva, Asana."
     ],
     "skills": [
       "HTML",
       "CSS",
-      "PHP",
       "JavaScript",
-      "Wordpress",
+      "PHP",
+      "WordPress",
       "Elementor",
+      "WooCommerce",
       "Webflow",
       "GSAP"
     ]
   },
   {
-    "id": 0,
-    "position_title": "Front End Developer",
+    "id": 1,
+    "position_title": "Front End Developer (On-site)",
     "company_name": "Netlingo Support Service Inc.",
-    "company_location": "Makati",
-    "startedAt": "Nov 2022",
+    "company_location": "Makati, Philippines",
+    "startedAt": "November 2022",
     "endAt": "August 2024",
     "description": [
-      "Developed responsive, pixel-perfect websites using HTML, CSS, JavaScript, AngularJS, Vue 3, and jQuery based on Figma and client mockups.",
-      "Assisted in migrating company platforms to Vue 3, creating modular and reusable components for improved scalability.",
-      "Implemented custom payment solutions via APIs, ensuring secure and efficient transactions for client websites.",
-      "Worked closely with designers, QA teams, project managers, and team leads to troubleshoot issues, enhance cross-browser compatibility, and improve user experience."
+      "Developed 5 responsive websites using HTML, CSS, JavaScript, AngularJS, and jQuery based on Figma mockups.",
+      "Migrated company platforms from AngularJS to latest Angular version, creating modular and reusable components.",
+      "Integrated 2 custom payment solutions via in-house APIs for secure client transactions.",
+      "Ensured cross-browser compatibility across Chrome, Firefox, Safari, and Edge.",
+      "Collaborated with QA teams and designers to optimize website performance and user experience.",
+      "Tools & Tech used: HTML, CSS (SASS), JavaScript (ES6+), PHP, Java, Vue 3, AngularJS, jQuery, Bootstrap, MySQL, PHPStorm, Git, Bitbucket, SourceTree, Figma, Photoshop, Canva, Jira, Confluence."
     ],
     "skills": [
       "HTML",
       "CSS",
-      "PHP",
       "JavaScript",
       "AngularJS",
-      "Vue3",
+      "Vue 3",
       "jQuery",
       "Bootstrap",
       "SASS",
@@ -54,24 +58,24 @@
     ]
   },
   {
-    "id": 1,
-    "position_title": "Intern Web Developer",
-    "company_name": "Altus Tech IT Solutions",
-    "company_location": "Bulacan",
+    "id": 2,
+    "position_title": "Intern Web Developer (WFH)",
+    "company_name": "Altus Tech IT Solutions Corp.",
+    "company_location": "Bulacan, Philippines",
     "startedAt": "April 2022",
     "endAt": "June 2022",
     "description": [
-      "Supported website development using HTML, CSS, JavaScript, and PHP under the guidance of senior developers.",
-      "Assisted in small feature implementations, styling updates, and bug fixes for client projects.",
-      "Participated in team code reviews and feedback sessions, gaining best practices for web development and debugging."
+      "Developed 1 website for internal company project using HTML, CSS, JavaScript, and PHP.",
+      "Participated in code reviews and received mentorship on web development best practices.",
+      "Tools & Tech used: HTML, CSS, JavaScript (ES6+), PHP,  Bootstrap, Figma, Photoshop, Canva"
     ],
     "skills": [
       "HTML",
       "CSS",
       "JavaScript",
-      "Bootstrap",
       "PHP",
       "Laravel",
+      "Bootstrap",
       "Photoshop"
     ]
   }

@@ -25,12 +25,8 @@
             <div class="about_item">
               <h3 class="text-white font-bold">Background</h3>
               <p class="text-[#C5C5C5]">
-                Im in industry for two years as front-end developer with a
-                strong background to engaging user interfaces. Now, I’m focused
-                on expanding my skills to include back-end development. My goal
-                is to become a full-stack developer, mastering both front-end
-                and back-end technologies to build complete, end-to-end web
-                solutions.
+I have two years of experience as a front-end developer, building engaging and user-friendly interfaces. Currently, I’m passionate about cloud technologies and data, and I’m focused on pursuing a career in cloud engineering. My goal is to leverage my development experience to design, deploy, and optimize scalable cloud-based solutions while deepening my expertise in data-driven applications.
+
               </p>
             </div>
             <div class="about_item">
@@ -41,31 +37,30 @@
             </div>
             <div class="about_item">
               <h3 class="text-white font-bold">Skills</h3>
-              <div class="item-contents">
-                <p class="text-[#C5C5C5]">
-                  <span class="font-bold">Frontend: </span>HTML, CSS, SASS,
-                  JavaScript, AngularJS, Vue3, jQuery, Bootstrap, Tailwind, PHP,
-                  Wordpress, Webflow
-                </p>
-                <p class="text-[#C5C5C5]">
-                  <span class="font-bold">Mobile: </span>Java (Android
-                  Development)
-                </p>
-                <p class="text-[#C5C5C5]">
-                  <span class="font-bold">Database: </span>MySQL
-                </p>
-                <p class="text-[#C5C5C5]">
-                  <span class="font-bold">Commit and Deploy tools: </span>Git,
-                  Github, Sourcetree, Bitbucket, Github Pages, Vercel
-                </p>
-                <p class="text-[#C5C5C5]">
-                  <span class="font-bold">Design: </span>Figma, Photoshop, Canva
-                </p>
-                <p class="text-[#C5C5C5]">
-                  <span class="font-bold">Other Tools: </span>Premiere Pro,
-                  After Effects
-                </p>
-              </div>
+            <div class="item-contents">
+              <p class="text-[#C5C5C5]">
+                <span class="font-bold">Languages & Core Tech: </span>HTML, CSS (SASS), JavaScript (ES6+), PHP, Java, Python
+              </p>
+              <p class="text-[#C5C5C5]">
+                <span class="font-bold">Frameworks & Libraries: </span>Vue 3, AngularJS, React, jQuery, Tailwind CSS, Bootstrap, GSAP
+              </p>
+              <p class="text-[#C5C5C5]">
+                <span class="font-bold">CMS & Website Builders: </span>WordPress (Primary), Elementor, Webflow, WooCommerce
+              </p>
+              <p class="text-[#C5C5C5]">
+                <span class="font-bold">Database: </span>MySQL, PostgreSQL
+              </p>
+              <p class="text-[#C5C5C5]">
+                <span class="font-bold">Development Tools: </span>VS Code, Git, GitHub, Bitbucket, SourceTree, Browser DevTools, FileZilla
+              </p>
+              <p class="text-[#C5C5C5]">
+                <span class="font-bold">Design Tools: </span>Figma, Photoshop, Canva
+              </p>
+              <p class="text-[#C5C5C5]">
+                <span class="font-bold">Project Management: </span>Jira, Asana, Confluence
+              </p>
+            </div>
+
             </div>
           </div>
         </div>

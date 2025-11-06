@@ -30,7 +30,7 @@
             Front End Developer
           </h1>
           <p class="my-[25px] text-custom-gray">
-            I’m a front-end developer with experience building responsive websites using HTML, CSS, JavaScript, and WordPress (Elementor, WooCommerce). I focus on creating seamless user experiences with custom styling, API integrations, and basic SEO optimization. My goal is to deliver high-performing, user-friendly websites while continuously expanding my development skills.
+            I’m a front-end developer with experience building responsive websites using HTML, CSS, JavaScript, and WordPress (Elementor, WooCommerce). I’m now passionate about cloud technologies and data, aiming to design scalable, efficient cloud-based applications. My goal is to combine my development experience with cloud and data expertise to deliver robust, high-performing solutions while continuously expanding my technical skill set.
           </p>
           <router-link :to="{ name: 'contact' }">
             <button class="custom-button-gradient">Get In Touch</button>

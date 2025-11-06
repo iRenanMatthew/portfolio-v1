@@ -3,14 +3,28 @@
     "id": 0,
     "uiName": "ECommerce UI Design",
     "uiLink": "https://www.figma.com/proto/5D8S8gr53oKI9QQPAgrepx/Untitled?node-id=1-8&t=ApMxfwWbJ0RV0cFw-1",
-    "uiDesc": "A sleek and user-friendly ecommerce UI designed for seamless shopping experiences. Featuring modern layouts, intuitive navigation, and engaging product displays to enhance user engagement and conversion rates.",
+    "uiDesc": "A clean and modern ecommerce UI designed to make shopping simple and enjoyable. It features intuitive navigation, attractive product displays, and layouts that keep users engaged and encourage purchases.",
     "uiImg": "ofix-img.jpg"
   },
   {
     "id": 1,
-    "uiName": "Website Portolio",
+    "uiName": "Website Portfolio",
     "uiLink": "https://www.figma.com/proto/AhIdYJb6ENEBVsi9T6HKaB/Untitled?node-id=1-24&t=mbW2GboK5ZHKUKSm-1",
-    "uiDesc": "A collection of my website projects, including custom-built sites using Vue, WordPress, Webflow, and more. Each project highlights my expertise in design, development, and interactive user experiences.",
+    "uiDesc": "A showcase of my website projects built with Vue, WordPress, Webflow, and more. Each project demonstrates my skills in creating designs, developing functionality, and crafting engaging user experiences.",
     "uiImg": "website-portfolio.jpg"
+  },
+  {
+    "id": 2,
+    "uiName": "Curls For Curls UI",
+    "uiLink": "https://www.figma.com/proto/GzkSnYuKTzc29s4Vw7vH7q/Curls-for-Girls?node-id=0-1&p=f&t=FQ2WvNoiv2TQqG3j-0&scaling=contain&content-scaling=fixed&page-id=0%3A1",
+    "uiDesc": "One of my first UI designs, created to put all my UI/UX learnings into practice. This project helped me explore design principles and improve my skills through hands-on experience.",
+    "uiImg": "curls-for-girls.jpg"
+  },
+  {
+    "id": 3,
+    "uiName": "NFT Website UI",
+    "uiLink": "https://www.figma.com/proto/01RBr5bK1MF3x9Q9upfsbo/NFT-Global--Copy-?node-id=1-2&p=f&t=I6pTKhEKVBcCJ9cA-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+    "uiDesc": "A UI for showcasing NFT items on the blockchain. I created this project in 2022 inspired by my interest in crypto, turning that fascination into a website design experiment.",
+    "uiImg": "nft-website.jpg"
   }
 ]

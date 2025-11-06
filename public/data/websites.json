@@ -1,0 +1,56 @@
+[
+  {
+    "id": 0,
+    "webName": "Website Portfolio",
+    "webDesc": "A collection of custom-built websites using HTML, CSS, JavaScript, Vue, and Tailwind CSS. Each project is designed for speed, responsiveness, and modern aesthetics, featuring clean code, smooth animations, and a seamless user experience.",
+    "webTechTools": "HTML, CSS, JavaScript, Vue, Tailwind",
+    "webLink": "/",
+    "internalURL": false,
+    "webImg": "website-portfolio-image.jpg"
+  },
+  {
+    "id": 1,
+    "webName": "Innova Showcase Website",
+    "webDesc": "A modern, visually striking website inspired by Webflow, showcasing architectural designs. Built with HTML, CSS, Webflow, and GSAP, it features smooth animations, responsive layouts, and striking visuals to highlight innovative structures.",
+    "webTechTools": "HTML, CSS, JavaScript, Webflow, GSAP",
+    "webLink": "https://innova-showcase.webflow.io/",
+    "internalURL": false,
+    "webImg": "innova-agency-img.jpg"
+  },
+  {
+    "id": 2,
+    "webName": "Shoecase Cleaner Website",
+    "webDesc": "A clean, interactive website for a shoe cleaning service. Built with HTML, CSS, Webflow, and GSAP, it features smooth animations, responsive layouts, and a visually engaging experience for visitors.",
+    "webTechTools": "HTML, CSS, JavaScript, Webflow, GSAP",
+    "webLink": "https://shoecare-inspired.webflow.io/",
+    "internalURL": false,
+    "webImg": "shoecare-img.jpg"
+  },
+  {
+    "id": 3,
+    "webName": "PythonAsia 2026",
+    "webDesc": "Contributed to the PythonAsia 2026 website as a Frontend Developer. Responsibilities included building responsive layouts and templates, integrating dynamic data from Django admin, and creating interactive components for a smooth user experience using HTML, CSS, JavaScript, Python, and Django.",
+    "webTechTools": "HTML, CSS, JavaScript, Python, Django",
+    "webLink": "https://2026.pythonasia.org/",
+    "internalURL": false,
+    "webImg": "python-asia.jpg"
+  },
+  {
+    "id": 4,
+    "webName": "Hans Website (Housing)",
+    "webDesc": "A professional website for Schrijnwerken Hans, a skilled carpentry service specializing in custom windows, doors, and interior woodwork. Built with HTML, CSS, Webflow, and GSAP, the site showcases services, project galleries, and detailed information about the company's 20 years of craftsmanship, offering visitors a clear and trustworthy experience.",
+    "webTechTools": "HTML, CSS, JavaScript, Webflow, GSAP",
+    "webLink": "https://hans-archi-training-v1.webflow.io/",
+    "internalURL": false,
+    "webImg": "hans-website.jpg"
+  },
+  {
+    "id": 5,
+    "webName": "Eclipse Bistro Website",
+    "webDesc": "A high-end cocktail bar website highlighting Eclipse Bistro's gourmet offerings and experienced chefs. Built with HTML, CSS, Webflow, and GSAP, it features elegant visuals, responsive layouts, and smooth animations to reflect the bistro's premium atmosphere and culinary excellence.",
+    "webTechTools": "HTML, CSS, JavaScript, Webflow, GSAP",
+    "webLink": "https://website-2-mockup-conversion.webflow.io/",
+    "internalURL": false,
+    "webImg": "eclipse-website.jpg"
+  }
+]

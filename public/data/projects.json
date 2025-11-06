@@ -1,44 +1,26 @@
 [
   {
     "id": 0,
-    "name": "Website Portfolio",
-    "content": "A collection of custom-built websites developed using HTML, CSS, JavaScript, Vue, and Tailwind CSS. Designed for speed, responsiveness, and modern aesthetics, each project showcases clean code, smooth animations, and a seamless user experience.",
-    "tags": ["HTML", "CSS", "JavaScript", "Vue", "Tailwind"],
-    "url": "/",
+    "name": "Websites",
+    "content": "A collection of interactive, custom-built websites using HTML, CSS, JavaScript, PHP, Python, Tailwind, and Bootstrap. Each project focuses on clean, maintainable code, responsive layouts, smooth animations with GSAP, and an intuitive user experience.",
+    "tags": ["HTML", "CSS", "JavaScript", "Python"],
+    "url": "projects/websites",
     "internalURL": true,
-    "img": "website-portfolio-image.jpg"
+    "img": "websites-showcase-img.jpg"
   },
   {
     "id": 1,
-    "name": "Innova Showcase Website",
-    "content": "It is a inspired website from webflow. A modern, visually striking website showcasing architectural designs with HTML, CSS, Webflow, and GSAP. Featuring smooth animations, responsive layouts, and visuals to highlight innovative structures and design excellence.",
-    "tags": ["HTML", "CSS", "JavaScript", "Webflow"],
-    "url": "https://innova-showcase.webflow.io/",
-    "internalURL": false,
-    "img": "innova-agency-img.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Shoecase Cleaner Website",
-    "content": "A shoe cleaner website website crafted using HTML, CSS, Webflow, and GSAP. Designed with smooth animations, responsive layouts, and aesthetic, it delivers an engaging, seamless, and visually user experience.",
-    "tags": ["HTML", "CSS", "JavaScript", "Webflow"],
-    "url": "https://shoecare-inspired.webflow.io/",
-    "internalURL": false,
-    "img": "shoecare-img.jpg"
-  },
-  {
-    "id": 3,
     "name": "UI Designs",
-    "content": "A showcase of user-friendly and visually appealing UI designs, created with a focus on aesthetics, usability, and seamless interaction. Each design reflects a perfect balance of creativity and functionality.",
+    "content": "A showcase of visually appealing and user-friendly UI designs created with attention to both aesthetics and usability. Every design balances creativity with practical functionality for a seamless user experience.",
     "tags": ["Figma", "Photoshop"],
     "url": "projects/ui-designs",
     "internalURL": true,
-    "img": "ui-showcase.jpg"
+    "img": "ui-showcase-img.jpg"
   },
   {
-    "id": 4,
+    "id": 2,
     "name": "Video Creations",
-    "content": "A dynamic collection of video edits featuring smooth transitions, engaging effects, and perfectly timed cuts. From high-energy montages to cinematic storytelling, each edit brings visuals to life with precision and creativity.",
+    "content": "A vibrant collection of video edits featuring smooth transitions, engaging effects, and well-timed cuts. From energetic montages to cinematic storytelling, each project brings visuals to life with precision and creativity.",
     "tags": ["Photoshop", "Premiere Pro", "After Effects"],
     "url": "projects/video-creations",
     "internalURL": true,
