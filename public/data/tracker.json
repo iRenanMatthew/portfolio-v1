@@ -1462,5 +1462,89 @@
       "sql","react","python"
     ],
     "journal": "Waiting for the journal"
+  },
+  {
+    "day": 120,
+    "date": "September 29, 2025",
+    "time_consumed": {
+      "hour": 2,
+      "minutes": 0
+    },
+    "tech_used": [
+      "react","python"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 121,
+    "date": "September 30, 2025",
+    "time_consumed": {
+      "hour": 2,
+      "minutes": 0
+    },
+    "tech_used": [
+      "react","python"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 122,
+    "date": "October 1, 2025",
+    "time_consumed": {
+      "hour": 2,
+      "minutes": 0
+    },
+    "tech_used": [
+      "react","python"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 123,
+    "date": "October 2, 2025",
+    "time_consumed": {
+      "hour": 2,
+      "minutes": 0
+    },
+    "tech_used": [
+      "react","python"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 124,
+    "date": "October 3, 2025",
+    "time_consumed": {
+      "hour": 2,
+      "minutes": 0
+    },
+    "tech_used": [
+      "react","python"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 125,
+    "date": "October 4, 2025",
+    "time_consumed": {
+      "hour": 2,
+      "minutes": 0
+    },
+    "tech_used": [
+      "react","python"
+    ],
+    "journal": "Waiting for the journal"
+  },
+  {
+    "day": 126,
+    "date": "October 5, 2025",
+    "time_consumed": {
+      "hour": 4,
+      "minutes": 0
+    },
+    "tech_used": [
+      "react","python"
+    ],
+    "journal": "Waiting for the journal"
   }
 ]
